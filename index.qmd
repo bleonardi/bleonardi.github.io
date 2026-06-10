@@ -52,10 +52,10 @@ Prior work includes grant-funded research on mathematics education, studies exam
 
 ### Recent Work
 
-- [The Sprawl Paradox](https://bleonardi.github.io/True_Urban_Ranking_Project/) — density-based city reranking
-- [Transit Fragmentation Index](https://bleonardi.github.io/Transit_Fragmentation_Research/) — governance friction in US metro transit
+- [The Sprawl Paradox](https://bleonardi.github.io/True_Urban_Ranking_Project/) — density-based city reranking and fiscal ROI
+- [Transit Fragmentation](https://bleonardi.github.io/Transit_Fragmentation_Research/) — governance friction in US metro transit
 - [Fed Research Alignment](https://bleonardi.github.io/Fed_Research_Districts/) — do Feds study what their districts produce?
-- [Transportation ROI: OKI Region](https://bleonardi.github.io/Transportation_ROI_Analysis/) — fiscal productivity vs. infrastructure spending
+- [Canonical Rigidity: Catholic Parishes](https://bleonardi.github.io/US_Catholic_Churches/) — spatial mismatch and institutional boundaries
 
 [All research →](research.qmd){.btn .btn-outline-primary .btn-sm}
 [CV →](cv.qmd){.btn .btn-outline-secondary .btn-sm}
