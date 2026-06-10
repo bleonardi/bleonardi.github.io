@@ -9,6 +9,8 @@ website:
     left:
       - href: index.qmd
         text: About
+      - href: dissertation.qmd
+        text: Dissertation
       - href: research.qmd
         text: Research
       - href: projects.qmd
