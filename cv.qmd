@@ -4,7 +4,8 @@ toc: true
 toc-depth: 2
 ---
 
-[Download PDF](mailto:leo.ben93@gmail.com?subject=CV%20Request){.btn .btn-outline-primary .btn-sm}
+[Full CV (Google Docs)](https://docs.google.com/document/d/1PLM9aQlSOKK94nyuegt0AnOkrG2HVVWSKIFkC1IF-Gs/edit?usp=sharing){.btn .btn-outline-primary .btn-sm}
+[Résumé (Google Docs)](https://docs.google.com/document/d/1bBtWNlteLDemOuFdqYIf1XDPi8KPWX8aG3TGmuooN4Y/edit?usp=sharing){.btn .btn-outline-secondary .btn-sm}
 
 ---
 
@@ -13,7 +14,7 @@ toc-depth: 2
 ::: {.cv-entry}
 **Ph.D. in Economics** · University of Cincinnati, Lindner College of Business
 ::: {.year}
-2024 – expected 2029
+2024 – present *(on leave)*
 :::
 *Wolfgang-Mayer Fellow in Economics*
 :::

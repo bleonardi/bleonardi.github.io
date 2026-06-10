@@ -12,7 +12,7 @@ css: assets/home.css
 
 ::: {.contact-block}
 **Benedict Leonardi**\
-Ph.D. Student in Economics\
+Data Scientist · 84.51°\
 University of Cincinnati
 
 [{{< fa envelope >}} leo.ben93\@gmail.com](mailto:leo.ben93@gmail.com)\
@@ -28,22 +28,20 @@ University of Cincinnati
 
 ## Benedict Leonardi
 
-Graduate Student in Economics · Lindner College of Business, University of Cincinnati\
-*Wolfgang-Mayer Fellow in Economics*
+Data Scientist · 84.51° (84.51 Degrees)\
+Ph.D. Candidate in Economics *(on leave)* · University of Cincinnati
 
 ---
 
-My primary interests lie in **urban and regional economics** — the spatial organization of cities, the economics of public infrastructure, and how institutional arrangements shape access to opportunity. In my broader approach I strive to be interdisciplinary, anchored in empirical analysis and enriched by historical and philosophical inquiry.
+I work as a data scientist at 84.51°, the data science and analytics subsidiary of Kroger, where I focus on consumer behavior modeling and applied analytics at scale. I am currently on leave from my doctoral program in economics at the University of Cincinnati — where I was a Wolfgang-Mayer Fellow — following the arrival of my first child.
 
-My work examines how normative commitments influence both the development and interpretation of economic models, and how classical and medieval moral theories intersect with contemporary economic assumptions.
-
-Prior work includes grant-funded research on mathematics education, studies examining local tax policy and public transit finance, and digital humanities projects using natural language processing on historical texts.
+My academic work sits at the intersection of urban economics, spatial analysis, and institutional political economy. I am interested in how the boundaries and structures that govern metropolitan areas — transit authorities, municipal limits, diocesan territories, Fed districts — diverge from the functional economic geographies they nominally represent, and what that divergence costs in welfare terms.
 
 ---
 
 ### Education
 
-**Ph.D. in Economics** · University of Cincinnati *(expected 2029)*\
+**Ph.D. in Economics** · University of Cincinnati *(on leave)*\
 **Master of Education** · University of Notre Dame · *ACE Teaching Fellow*\
 **B.A. in Economics and Mathematics** · University of Cincinnati\
 *University Honors Program · Lindner Honors-PLUS Program*
