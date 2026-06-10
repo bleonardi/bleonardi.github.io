@@ -1,48 +1,65 @@
 ---
-title: "Benedict Leonardi"
-subtitle: "Graduate Student in Economics · University of Cincinnati"
+title: " "
 page-layout: full
 toc: false
+css: assets/home.css
 ---
 
-::: {.hero}
-# Benedict Leonardi
+:::: {.columns .hero-section}
 
-::: {.subtitle}
-Ph.D. Student in Economics · Lindner College of Business, University of Cincinnati
+::: {.column width="28%"}
+![](assets/profile.jpg){.profile-photo}
+
+::: {.contact-block}
+**Benedict Leonardi**\
+Ph.D. Student in Economics\
+University of Cincinnati
+
+[{{< fa envelope >}} leo.ben93\@gmail.com](mailto:leo.ben93@gmail.com)\
+[{{< fa brands github >}} bleonardi](https://github.com/bleonardi)\
+[{{< fa brands linkedin >}} LinkedIn](https://www.linkedin.com/in/benedict-leonardi/)
+:::
 :::
 
-[Email](mailto:leo.ben93@gmail.com){.btn .btn-outline-primary .btn-sm}
-[GitHub](https://github.com/bleonardi){.btn .btn-outline-secondary .btn-sm}
-[LinkedIn](https://www.linkedin.com/in/benedict-leonardi/){.btn .btn-outline-secondary .btn-sm}
-[CV](cv.qmd){.btn .btn-outline-secondary .btn-sm}
+::: {.column width="4%"}
 :::
 
----
+::: {.column width="68%"}
 
-## Research Interests
+## Benedict Leonardi
 
-My primary interests lie in **urban and regional economics** — the spatial organization of cities, the economics of public infrastructure, and how institutional arrangements shape access to opportunity. I approach these questions empirically, drawing on geospatial methods, causal inference, and large administrative datasets, while remaining attentive to the historical and normative dimensions that shape how economic models are constructed and interpreted.
-
-I am particularly interested in how governance fragmentation, land-use rigidity, and fiscal structure interact to produce unequal urban outcomes.
-
----
-
-## Background
-
-I came to economics through an unusual path. I began in mathematics and philosophy at the University of Cincinnati, worked as a K–12 mathematics educator through Notre Dame's Alliance for Catholic Education, and completed a Master of Education before returning to graduate study in economics. That background informs my interest in the normative foundations of empirical work — specifically, how classical and medieval moral frameworks intersect with contemporary economic assumptions.
-
-Prior work includes grant-funded research on mathematics education, studies of local transit tax policy and public finance, and digital humanities projects using natural language processing on historical texts.
-
----
-
-## Education
-
-**Ph.D. in Economics** (expected 2029) · University of Cincinnati, Lindner College of Business
+Graduate Student in Economics · Lindner College of Business, University of Cincinnati\
 *Wolfgang-Mayer Fellow in Economics*
 
-**Master of Education** · University of Notre Dame
-*ACE Teaching Fellow*
+---
 
-**B.A. in Economics and Mathematics** · University of Cincinnati
+My primary interests lie in **urban and regional economics** — the spatial organization of cities, the economics of public infrastructure, and how institutional arrangements shape access to opportunity. In my broader approach I strive to be interdisciplinary, anchored in empirical analysis and enriched by historical and philosophical inquiry.
+
+My work examines how normative commitments influence both the development and interpretation of economic models, and how classical and medieval moral theories intersect with contemporary economic assumptions.
+
+Prior work includes grant-funded research on mathematics education, studies examining local tax policy and public transit finance, and digital humanities projects using natural language processing on historical texts.
+
+---
+
+### Education
+
+**Ph.D. in Economics** · University of Cincinnati *(expected 2029)*\
+**Master of Education** · University of Notre Dame · *ACE Teaching Fellow*\
+**B.A. in Economics and Mathematics** · University of Cincinnati\
 *University Honors Program · Lindner Honors-PLUS Program*
+
+---
+
+### Recent Work
+
+- [The Sprawl Paradox](https://bleonardi.github.io/True_Urban_Ranking_Project/) — density-based city reranking
+- [Transit Fragmentation Index](https://bleonardi.github.io/Transit_Fragmentation_Research/) — governance friction in US metro transit
+- [Fed Research Alignment](https://bleonardi.github.io/Fed_Research_Districts/) — do Feds study what their districts produce?
+- [Transportation ROI: OKI Region](https://bleonardi.github.io/Transportation_ROI_Analysis/) — fiscal productivity vs. infrastructure spending
+
+[All research →](research.qmd){.btn .btn-outline-primary .btn-sm}
+[CV →](cv.qmd){.btn .btn-outline-secondary .btn-sm}
+
+:::
+
+::::

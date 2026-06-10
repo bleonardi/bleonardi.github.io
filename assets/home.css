@@ -1,0 +1,34 @@
+.hero-section {
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
+  align-items: flex-start;
+}
+
+.profile-photo {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 1.2rem;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+.contact-block {
+  font-size: 0.88rem;
+  line-height: 1.9;
+  text-align: center;
+}
+
+.contact-block a {
+  display: block;
+  color: #1a6496;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+  }
+  .profile-photo {
+    max-width: 140px;
+  }
+}
