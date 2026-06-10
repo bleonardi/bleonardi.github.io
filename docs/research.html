@@ -95,10 +95,6 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./dissertation.html"> 
-<span class="menu-text">Dissertation</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link active" href="./research.html" aria-current="page"> 
 <span class="menu-text">Research</span></a>
   </li>  
@@ -143,8 +139,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul class="collapse">
-  <li><a href="#working-papers-data-projects" id="toc-working-papers-data-projects" class="nav-link active" data-scroll-target="#working-papers-data-projects">Working Papers &amp; Data Projects</a></li>
-  <li><a href="#coursework-seminar-papers" id="toc-coursework-seminar-papers" class="nav-link" data-scroll-target="#coursework-seminar-papers">Coursework &amp; Seminar Papers</a></li>
+  <li><a href="#research-projects" id="toc-research-projects" class="nav-link active" data-scroll-target="#research-projects">Research Projects</a></li>
+  <li><a href="#coursework-seminar-work" id="toc-coursework-seminar-work" class="nav-link" data-scroll-target="#coursework-seminar-work">Coursework &amp; Seminar Work</a></li>
   <li><a href="#essays-philosophical-work" id="toc-essays-philosophical-work" class="nav-link" data-scroll-target="#essays-philosophical-work">Essays &amp; Philosophical Work</a></li>
   </ul>
 </nav>
@@ -171,56 +167,65 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Research on urban economics, public finance, and institutional analysis. All projects use reproducible workflows in R and/or Python with Quarto for documentation.</p>
+<p>My primary research interest is the spatial mismatch between American metropolitan institutions and the actual distribution of urban economic density. The projects below document this mismatch across three domains and trace its consequences for measurement, governance, and public finance.</p>
+<p><strong>The measurement problem:</strong> Official city population figures are shaped by 20th-century boundary consolidations that have little to do with where people actually live at urban densities. <a href="#the-sprawl-paradox">The Sprawl Paradox</a> introduces a corrected measure.</p>
+<p><strong>The governance and fiscal costs:</strong> When metropolitan governance and spending formulas inherit boundary distortions, dense areas systematically subsidize dispersed ones. The <a href="#transit-fragmentation">Transit Fragmentation</a> and <a href="#transportation-roi-oki-region">Transportation ROI</a> analyses document this in mobility and public finance.</p>
+<p><strong>The epistemic question:</strong> Do the research institutions charged with understanding regional economies also reproduce the same boundary logic? The <a href="#federal-reserve-research-alignment">Federal Reserve alignment</a> analysis is an early pass at this question.</p>
+<p>A fourth strand — the <a href="#canonical-rigidity-us-catholic-parishes">Catholic parishes</a> work — sits slightly outside this core thread but shares the same underlying concern: how legacy institutional boundaries misallocate resources in spatially heterogeneous environments.</p>
 <hr>
-<section id="working-papers-data-projects" class="level2">
-<h2 class="anchored" data-anchor-id="working-papers-data-projects">Working Papers &amp; Data Projects</h2>
-<section id="the-sprawl-paradox-redefining-american-urbanity-through-density" class="level3 project-card">
-<h3 class="anchored" data-anchor-id="the-sprawl-paradox-redefining-american-urbanity-through-density"><a href="https://bleonardi.github.io/True_Urban_Ranking_Project/">The Sprawl Paradox: Redefining American Urbanity Through Density</a></h3>
-<p>Challenges conventional US city population rankings, which are distorted by arbitrary political consolidations. Introduces the <strong>True Urban Core (TUC)</strong> metric — the contiguous population within Census tracts exceeding 10,000 people per square mile. When applied consistently, cities like Phoenix and Indianapolis drop sharply while Boston and San Francisco emerge as the nation’s true urban heavyweights.</p>
+<section id="research-projects" class="level2">
+<h2 class="anchored" data-anchor-id="research-projects">Research Projects</h2>
+<section id="the-sprawl-paradox" class="level3 project-card">
+<h3 class="anchored" data-anchor-id="the-sprawl-paradox"><a href="https://bleonardi.github.io/True_Urban_Ranking_Project/">The Sprawl Paradox</a></h3>
+<p><strong>Redefining American Urbanity Through Density</strong></p>
+<p>US city population rankings are distorted by arbitrary political consolidations — Indianapolis, Columbus, and Louisville absorbed their suburbs wholesale; Boston and San Francisco could not. The result rewards administrative reach over actual density. This project introduces the <strong>True Urban Core (TUC)</strong>: contiguous population in Census tracts exceeding 10,000 persons per square mile, the threshold associated with transit viability and walkable commercial corridors. When applied consistently, cities like Phoenix and Indianapolis drop sharply while Boston, SF, and DC emerge as the nation’s true urban heavyweights. A companion analysis extends the framework to the OKI region’s fiscal geography, showing that urban tracts generate roughly 17× more property tax revenue per acre than sprawl tracts while receiving less federal transportation investment per acre.</p>
 <div class="tags">
 <p><span class="tag">Urban Economics</span> <span class="tag">Geospatial Analysis</span> <span class="tag">Census</span> <span class="tag">R</span></p>
 </div>
 </section>
-<section id="transit-fragmentation-research-quantifying-governance-friction" class="level3 project-card">
-<h3 class="anchored" data-anchor-id="transit-fragmentation-research-quantifying-governance-friction"><a href="https://bleonardi.github.io/Transit_Fragmentation_Research/">Transit Fragmentation Research: Quantifying Governance Friction</a></h3>
-<p>Introduces the <strong>Transit Fragmentation Index (TFI)</strong>, derived from an inverse HHI of ridership-weighted agency shares, to quantify institutional “friction” across US metropolitan transit systems. Analyzes 480+ urbanized areas using 2023 NTD data. Finds that fragmented regions (e.g., SF Bay Area, TFI: 17.0) suffer a quantifiable per-capita ridership penalty relative to consolidated systems (e.g., New York, TFI: 6.7).</p>
+<section id="transit-fragmentation" class="level3 project-card">
+<h3 class="anchored" data-anchor-id="transit-fragmentation"><a href="https://bleonardi.github.io/Transit_Fragmentation_Research/">Transit Fragmentation</a></h3>
+<p><strong>Quantifying Governance Friction in US Metropolitan Transit</strong></p>
+<p>In many US metro areas, transit service is divided among multiple independent authorities following legacy municipal boundaries rather than modern commuting patterns. This project introduces the <strong>Transit Fragmentation Index (TFI)</strong> — the inverse of a ridership-weighted HHI across agencies within each urbanized area — to quantify this institutional friction. Using 2023 National Transit Database data across 480+ urbanized areas, the analysis finds that fragmented regions suffer a persistent ridership penalty relative to consolidated systems of comparable size, even controlling for density, income, and built environment. In regions like Northern Kentucky and suburban Detroit, fragmentation accounts for a 55–79% loss in transit market share compared to demographically matched neighborhoods served by unified agencies.</p>
 <div class="tags">
 <p><span class="tag">Urban Economics</span> <span class="tag">Transportation</span> <span class="tag">Institutional Analysis</span> <span class="tag">R · Python</span></p>
 </div>
 </section>
-<section id="transportation-roi-analysis-oki-region" class="level3 project-card">
-<h3 class="anchored" data-anchor-id="transportation-roi-analysis-oki-region"><a href="https://bleonardi.github.io/Transportation_ROI_Analysis/">Transportation ROI Analysis: OKI Region</a></h3>
-<p>Measures fiscal productivity against federal infrastructure investment across the 8-county Ohio-Kentucky-Indiana region. Urban tracts generate approximately <strong>17× more property tax revenue per acre</strong> than sprawl-classified tracts, yet suburban areas receive the highest per-acre federal transportation investment — a pattern consistent with structural cross-subsidy from urban to low-density areas.</p>
+<section id="transportation-roi-oki-region" class="level3 project-card">
+<h3 class="anchored" data-anchor-id="transportation-roi-oki-region"><a href="https://bleonardi.github.io/Transportation_ROI_Analysis/">Transportation ROI: OKI Region</a></h3>
+<p><strong>Fiscal Productivity vs.&nbsp;Infrastructure Investment Across Density Tiers</strong></p>
+<p>This analysis is now integrated into the <a href="https://bleonardi.github.io/True_Urban_Ranking_Project/fiscal_roi.html">Sprawl Paradox</a> project as a case study in the fiscal consequences of boundary distortion. The standalone site remains as an archive.</p>
 <div class="tags">
 <p><span class="tag">Public Finance</span> <span class="tag">Transportation</span> <span class="tag">Geospatial</span> <span class="tag">R · Python</span></p>
 </div>
 </section>
 <section id="brent-spence-bridge-home-price-event-study" class="level3 project-card">
 <h3 class="anchored" data-anchor-id="brent-spence-bridge-home-price-event-study"><a href="https://bleonardi.github.io/BSB_Impact_Analysis/">Brent Spence Bridge: Home Price Event Study</a></h3>
-<p>An event study tracking residential home price responses to major Brent Spence Bridge corridor milestones (federal grant, contractor award, groundbreaking). Identifies a significant “landing zone” effect: ZIP codes within 1 mile of the I-75/BSB corridor outperformed the broader Cincinnati–Northern Kentucky market by roughly <strong>8.5 percentage points</strong> since the 2020 fire.</p>
+<p>An event study tracking residential home price responses to major Brent Spence Bridge corridor milestones — federal grant announcement, contractor award, groundbreaking. Identifies a significant “landing zone” effect: ZIP codes within 1 mile of the I-75/BSB corridor outperformed the broader Cincinnati–Northern Kentucky market by roughly <strong>8.5 percentage points</strong> since the 2020 fire.</p>
 <div class="tags">
 <p><span class="tag">Real Estate Economics</span> <span class="tag">Event Study</span> <span class="tag">Time Series</span> <span class="tag">R</span></p>
 </div>
 </section>
-<section id="canonical-rigidity-sacred-space-us-catholic-parishes" class="level3 project-card">
-<h3 class="anchored" data-anchor-id="canonical-rigidity-sacred-space-us-catholic-parishes"><a href="https://bleonardi.github.io/US_Catholic_Churches/">Canonical Rigidity &amp; Sacred Space: US Catholic Parishes</a></h3>
-<p>A spatial econometric study of the US Catholic Church, examining the misalignment between legacy territorial boundaries and modern urban demand. Uses Voronoi tessellations to define “natural market areas” against canonical parish boundaries, quantifies spatial leakage where parishioners bypass assigned parishes, and estimates opportunity costs of underutilized surface parking in high-density cores using Overture Maps building footprints.</p>
+<section id="canonical-rigidity-us-catholic-parishes" class="level3 project-card">
+<h3 class="anchored" data-anchor-id="canonical-rigidity-us-catholic-parishes"><a href="https://bleonardi.github.io/US_Catholic_Churches/">Canonical Rigidity: US Catholic Parishes</a></h3>
+<p><strong>Spatial Mismatch and Institutional Boundaries in the US Catholic Church</strong></p>
+<p>A spatial econometric study of how 19th-century parish boundary structures misallocate sacramental services across modern urban demographics. Uses Voronoi tessellations to construct “natural market area” counterfactuals against canonical parish boundaries, quantifying spatial leakage where parishioners bypass assigned parishes for closer alternatives. A companion analysis estimates the opportunity cost of underutilized surface parking in high-density cores using Overture Maps building footprints.</p>
 <div class="tags">
 <p><span class="tag">Spatial Econometrics</span> <span class="tag">Urban Land Use</span> <span class="tag">R · Python</span></p>
 </div>
 </section>
-<section id="do-federal-reserve-banks-research-what-their-districts-produce" class="level3 project-card">
-<h3 class="anchored" data-anchor-id="do-federal-reserve-banks-research-what-their-districts-produce"><a href="https://bleonardi.github.io/Fed_Research_Districts/">Do Federal Reserve Banks Research What Their Districts Produce?</a></h3>
-<p>Topic-models approximately <strong>18,300 Federal Reserve working papers</strong> (2010–2024) using keyATM with 10 seeded topics, then correlates each Fed’s research portfolio against district industry composition from BLS QCEW data. Midwest Feds show the strongest alignment; Boston, Philadelphia, and San Francisco are most misaligned, with research diverging from local economic specialization.</p>
+<section id="federal-reserve-research-alignment" class="level3 project-card">
+<h3 class="anchored" data-anchor-id="federal-reserve-research-alignment"><a href="https://bleonardi.github.io/Fed_Research_Districts/">Federal Reserve Research Alignment</a></h3>
+<p><strong>Do Fed Banks Study What Their Districts Produce?</strong></p>
+<p>Topic-models ~18,300 Federal Reserve working papers (2010–2024) using keyATM with 10 seeded topics, then correlates each Bank’s research portfolio against district industry composition from BLS QCEW data. Midwest Feds show the strongest alignment; Boston, Philadelphia, and San Francisco are most misaligned, with research portfolios diverging substantially from local economic specialization. The Dallas Fed’s near-zero energy research score — despite oil and gas dominating district employment — appears to reflect that San Francisco captures climate and grid research under the same topic label.</p>
 <div class="tags">
 <p><span class="tag">Topic Modeling</span> <span class="tag">Federal Reserve</span> <span class="tag">NLP</span> <span class="tag">R</span></p>
 </div>
 </section>
 <hr>
 </section>
-<section id="coursework-seminar-papers" class="level2">
-<h2 class="anchored" data-anchor-id="coursework-seminar-papers">Coursework &amp; Seminar Papers</h2>
+<section id="coursework-seminar-work" class="level2">
+<h2 class="anchored" data-anchor-id="coursework-seminar-work">Coursework &amp; Seminar Work</h2>
 <section id="population-projection-using-a-variety-of-approaches" class="level3 project-card">
 <h3 class="anchored" data-anchor-id="population-projection-using-a-variety-of-approaches"><a href="https://oki-data.shinyapps.io/dynamic_projections/">Population Projection Using a Variety of Approaches</a></h3>
 <p>Neighborhood-level population forecasting for the OKI region using dynamic linear models, gradient boosted models, and Hamilton-Perry methodology. Interactive Shiny application.</p>
