@@ -11,97 +11,47 @@ toc-depth: 2
 
 ## Education
 
-::: {.cv-entry}
-**Ph.D. in Economics** · University of Cincinnati, Lindner College of Business
-::: {.year}
-2024 – present *(on leave)*
-:::
+**Ph.D. in Economics** · University of Cincinnati, Lindner College of Business · *2024 – present (on leave)*\
 *Wolfgang-Mayer Fellow in Economics*
-:::
 
-::: {.cv-entry}
-**Master of Education** · University of Notre Dame
-::: {.year}
-2022 – 2023
-:::
+**Master of Education** · University of Notre Dame · *2021 – 2023*\
 *ACE Teaching Fellow*
-:::
 
-::: {.cv-entry}
-**B.A. in Economics and Mathematics** · University of Cincinnati
-::: {.year}
-2018 – 2022
-:::
+**B.A. in Economics and Mathematics** · University of Cincinnati · *2016 – 2021*\
 *University Honors Program · Lindner Honors-PLUS Program*
-:::
 
 ---
 
 ## Research
 
-::: {.cv-entry}
-**The Sprawl Paradox: Redefining American Urbanity Through Density**
-::: {.year}
-2025
-:::
-Introduces the True Urban Core (TUC) metric for density-based city ranking. [→](https://bleonardi.github.io/True_Urban_Ranking_Project/)
-:::
+**[The Sprawl Paradox: Redefining American Urbanity Through Density](https://bleonardi.github.io/True_Urban_Ranking_Project/)** · *2025*\
+Introduces the True Urban Core (TUC) metric for density-based city ranking. Companion fiscal analysis documents the cross-subsidy of sprawl in the OKI region.
 
-::: {.cv-entry}
-**Transit Fragmentation Research: Quantifying Governance Friction**
-::: {.year}
-2025
-:::
-Develops the Transit Fragmentation Index (TFI) using NTD data across 480+ urbanized areas. [→](https://bleonardi.github.io/Transit_Fragmentation_Research/)
-:::
+**[Transit Fragmentation: Quantifying Governance Friction](https://bleonardi.github.io/Transit_Fragmentation_Research/)** · *2025*\
+Develops the Transit Fragmentation Index (TFI) using NTD data across 480+ urbanized areas.
 
-::: {.cv-entry}
-**Transportation ROI Analysis: OKI Region**
-::: {.year}
-2025
-:::
-Fiscal productivity analysis of federal transportation investment vs. property tax yield across 8 counties. [→](https://bleonardi.github.io/Transportation_ROI_Analysis/)
-:::
+**[Brent Spence Bridge: Home Price Event Study](https://bleonardi.github.io/BSB_Impact_Analysis/)** · *2025*\
+Event study of infrastructure milestone effects on residential prices in Cincinnati/NKY.
 
-::: {.cv-entry}
-**Brent Spence Bridge: Home Price Event Study**
-::: {.year}
-2025
-:::
-Event study of infrastructure milestone effects on residential prices in Cincinnati/NKY. [→](https://bleonardi.github.io/BSB_Impact_Analysis/)
-:::
+**[Canonical Rigidity & Sacred Space: US Catholic Parishes](https://bleonardi.github.io/US_Catholic_Churches/)** · *2025*\
+Spatial econometric analysis of parish boundary rigidity and urban land use inefficiency.
 
-::: {.cv-entry}
-**Canonical Rigidity & Sacred Space: US Catholic Parishes**
-::: {.year}
-2025
-:::
-Spatial econometric analysis of parish boundary rigidity and urban land use inefficiency. [→](https://bleonardi.github.io/US_Catholic_Churches/)
-:::
-
-::: {.cv-entry}
-**Do Federal Reserve Banks Research What Their Districts Produce?**
-::: {.year}
-2025
-:::
-Topic modeling of ~18,300 Fed working papers against district industry composition. [→](https://bleonardi.github.io/Fed_Research_Districts/)
-:::
+**[Do Federal Reserve Banks Research What Their Districts Produce?](https://bleonardi.github.io/Fed_Research_Districts/)** · *2025*\
+Topic modeling of ~18,300 Fed working papers against district industry composition.
 
 ---
 
-## Teaching
+## Experience
 
-::: {.cv-entry}
-**Mathematics Educator** · Notre Dame ACE Teaching Fellow
-::: {.year}
-2022 – 2024
-:::
-Secondary mathematics instruction. Concurrent M.Ed. completion through University of Notre Dame.
-:::
+**Data Scientist** · 84.51° · *2025 – present*\
+Consumer behavior modeling and applied analytics at scale.
+
+**Mathematics Educator** · Notre Dame ACE Teaching Fellow · *2021 – 2023*\
+Secondary mathematics instruction. Concurrent M.Ed. through University of Notre Dame.
 
 ---
 
-## Selected Skills
+## Skills
 
 **Econometrics & Statistics:** Causal inference, panel data, spatial econometrics, time series, topic modeling
 
@@ -115,6 +65,4 @@ Secondary mathematics instruction. Concurrent M.Ed. completion through Universit
 
 ## Contact
 
-**Email:** [leo.ben93@gmail.com](mailto:leo.ben93@gmail.com)
-**GitHub:** [github.com/bleonardi](https://github.com/bleonardi)
-**LinkedIn:** [linkedin.com/in/benedict-leonardi](https://www.linkedin.com/in/benedict-leonardi/)
+[leo.ben93@gmail.com](mailto:leo.ben93@gmail.com) · [github.com/bleonardi](https://github.com/bleonardi) · [linkedin.com/in/benedict-leonardi](https://www.linkedin.com/in/benedict-leonardi/)

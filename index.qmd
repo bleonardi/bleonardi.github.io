@@ -14,9 +14,9 @@ css: assets/home.css
 **Benedict Leonardi**\
 Data Scientist · 84.51°
 
-[{{< fa envelope >}} leo.ben93\@gmail.com](mailto:leo.ben93@gmail.com)\
-[{{< fa brands github >}} bleonardi](https://github.com/bleonardi)\
-[{{< fa brands linkedin >}} LinkedIn](https://www.linkedin.com/in/benedict-leonardi/)
+[leo.ben93\@gmail.com](mailto:leo.ben93@gmail.com)\
+[github.com/bleonardi](https://github.com/bleonardi)\
+[LinkedIn](https://www.linkedin.com/in/benedict-leonardi/)
 :::
 :::
 
