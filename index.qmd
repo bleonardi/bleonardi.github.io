@@ -12,8 +12,7 @@ css: assets/home.css
 
 ::: {.contact-block}
 **Benedict Leonardi**\
-Data Scientist · 84.51°\
-University of Cincinnati
+Data Scientist · 84.51°
 
 [{{< fa envelope >}} leo.ben93\@gmail.com](mailto:leo.ben93@gmail.com)\
 [{{< fa brands github >}} bleonardi](https://github.com/bleonardi)\
@@ -28,23 +27,18 @@ University of Cincinnati
 
 ## Benedict Leonardi
 
-Data Scientist · 84.51° (84.51 Degrees)\
+Data Scientist · 84.51°\
 Ph.D. Candidate in Economics *(on leave)* · University of Cincinnati
 
 ---
 
-I work as a data scientist at 84.51°, the data science and analytics subsidiary of Kroger, where I focus on consumer behavior modeling and applied analytics at scale. I am currently on leave from my doctoral program in economics at the University of Cincinnati — where I was a Wolfgang-Mayer Fellow — following the arrival of my first child.
+I am currently a data scientist at 84.51°, the data science and analytics subsidiary of Kroger. I am on leave from my doctoral program in economics at the University of Cincinnati's Lindner College of Business — a decision made happily upon the arrival of my first child. My primary interests lie in urban and regional economics, but in my broader approach I strive to be interdisciplinary — anchored in empirical analysis and enriched by historical and philosophical inquiry.
 
-My academic work sits at the intersection of urban economics, spatial analysis, and institutional political economy. I am interested in how the boundaries and structures that govern metropolitan areas — transit authorities, municipal limits, diocesan territories, Fed districts — diverge from the functional economic geographies they nominally represent, and what that divergence costs in welfare terms.
+My earlier professional experiences span economic research, technical professional roles, and K-12 education. I have contributed to grant-funded research at the University of Cincinnati focused on mathematics education, conducted research on local tax policy and public transit finance, and applied natural language processing to historical texts in digital humanities research. I also served as a mathematics educator through Notre Dame's Alliance for Catholic Education (ACE) while completing a Master of Education.
 
----
+Throughout my career, I have maintained an interest in the historical and philosophical roots of political thought. I have had the great opportunity to explore how classical and medieval moral theories intersect with contemporary economic assumptions. My writing and research are shaped by a commitment to examining how normative commitments influence both the development and interpretation of economic models, using some of the rigorous statistical tools prized by economists.
 
-### Education
-
-**Ph.D. in Economics** · University of Cincinnati *(on leave)*\
-**Master of Education** · University of Notre Dame · *ACE Teaching Fellow*\
-**B.A. in Economics and Mathematics** · University of Cincinnati\
-*University Honors Program · Lindner Honors-PLUS Program*
+I hold a B.A. in Economics and Mathematics from the University of Cincinnati, a Master of Education from the University of Notre Dame, and am a Wolfgang-Mayer Fellow in Economics currently on leave from the Ph.D. program. I am a former Teaching Fellow with ACE and an alumnus of both the University Honors Program and the Lindner Honors-PLUS Program. My work has been featured in op-eds and technical briefs related to tax and transit policy.
 
 ---
 
