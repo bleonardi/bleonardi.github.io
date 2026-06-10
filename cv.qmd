@@ -1,0 +1,119 @@
+---
+title: "Curriculum Vitae"
+toc: true
+toc-depth: 2
+---
+
+[Download PDF](mailto:leo.ben93@gmail.com?subject=CV%20Request){.btn .btn-outline-primary .btn-sm}
+
+---
+
+## Education
+
+::: {.cv-entry}
+**Ph.D. in Economics** · University of Cincinnati, Lindner College of Business
+::: {.year}
+2024 – expected 2029
+:::
+*Wolfgang-Mayer Fellow in Economics*
+:::
+
+::: {.cv-entry}
+**Master of Education** · University of Notre Dame
+::: {.year}
+2022 – 2023
+:::
+*ACE Teaching Fellow*
+:::
+
+::: {.cv-entry}
+**B.A. in Economics and Mathematics** · University of Cincinnati
+::: {.year}
+2018 – 2022
+:::
+*University Honors Program · Lindner Honors-PLUS Program*
+:::
+
+---
+
+## Research
+
+::: {.cv-entry}
+**The Sprawl Paradox: Redefining American Urbanity Through Density**
+::: {.year}
+2025
+:::
+Introduces the True Urban Core (TUC) metric for density-based city ranking. [→](https://bleonardi.github.io/True_Urban_Ranking_Project/)
+:::
+
+::: {.cv-entry}
+**Transit Fragmentation Research: Quantifying Governance Friction**
+::: {.year}
+2025
+:::
+Develops the Transit Fragmentation Index (TFI) using NTD data across 480+ urbanized areas. [→](https://bleonardi.github.io/Transit_Fragmentation_Research/)
+:::
+
+::: {.cv-entry}
+**Transportation ROI Analysis: OKI Region**
+::: {.year}
+2025
+:::
+Fiscal productivity analysis of federal transportation investment vs. property tax yield across 8 counties. [→](https://bleonardi.github.io/Transportation_ROI_Analysis/)
+:::
+
+::: {.cv-entry}
+**Brent Spence Bridge: Home Price Event Study**
+::: {.year}
+2025
+:::
+Event study of infrastructure milestone effects on residential prices in Cincinnati/NKY. [→](https://bleonardi.github.io/BSB_Impact_Analysis/)
+:::
+
+::: {.cv-entry}
+**Canonical Rigidity & Sacred Space: US Catholic Parishes**
+::: {.year}
+2025
+:::
+Spatial econometric analysis of parish boundary rigidity and urban land use inefficiency. [→](https://bleonardi.github.io/US_Catholic_Churches/)
+:::
+
+::: {.cv-entry}
+**Do Federal Reserve Banks Research What Their Districts Produce?**
+::: {.year}
+2025
+:::
+Topic modeling of ~18,300 Fed working papers against district industry composition. [→](https://bleonardi.github.io/Fed_Research_Districts/)
+:::
+
+---
+
+## Teaching
+
+::: {.cv-entry}
+**Mathematics Educator** · Notre Dame ACE Teaching Fellow
+::: {.year}
+2022 – 2024
+:::
+Secondary mathematics instruction. Concurrent M.Ed. completion through University of Notre Dame.
+:::
+
+---
+
+## Selected Skills
+
+**Econometrics & Statistics:** Causal inference, panel data, spatial econometrics, time series, topic modeling
+
+**Geospatial:** R (sf, tidycensus, leaflet), PostGIS, Overture Maps
+
+**Programming:** R, Python, SQL, Quarto/RMarkdown, Shiny
+
+**Data Sources:** US Census ACS, BLS QCEW, NTD, OpenAlex API, USASpending.gov
+
+---
+
+## Contact
+
+**Email:** [leo.ben93@gmail.com](mailto:leo.ben93@gmail.com)
+**GitHub:** [github.com/bleonardi](https://github.com/bleonardi)
+**LinkedIn:** [linkedin.com/in/benedict-leonardi](https://www.linkedin.com/in/benedict-leonardi/)

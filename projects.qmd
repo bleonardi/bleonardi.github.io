@@ -1,0 +1,44 @@
+---
+title: "Projects"
+toc: false
+---
+
+Standalone tools, demos, and exploratory analyses outside of formal research papers.
+
+---
+
+::: {.project-card}
+### [Census Exploration: Tri-State Spatial Analysis](https://bleonardi.github.io/Census_Exploration/)
+A collection of exploratory spatial analyses and visualizations using ACS 5-year estimates for Ohio, Kentucky, and Indiana. Demonstrates choropleth mapping, interactive Leaflet maps, and demographic profiling via tidycensus.
+
+::: {.tags}
+[Census]{.tag} [Geospatial]{.tag} [R · Leaflet]{.tag}
+:::
+:::
+
+::: {.project-card}
+### [Newport Crash Analysis](https://bleonardi.github.io/Newport_Crashes/)
+Poisson regression study evaluating the effect of crosswalk removal on crash frequency at a Newport, KY intersection. Uses scraped KYTC incident data and spatial filtering to isolate the intersection-level treatment effect.
+
+::: {.tags}
+[Transportation Safety]{.tag} [Causal Inference]{.tag} [R · Python]{.tag}
+:::
+:::
+
+::: {.project-card}
+### [olmOCR HuggingFace Space](https://huggingface.co/spaces/leonarb/olmocr-demo)
+A Gradio interface for the Allen Institute's olmOCR PDF-to-text conversion model, deployed as a public HuggingFace Space.
+
+::: {.tags}
+[NLP]{.tag} [Python]{.tag} [HuggingFace]{.tag}
+:::
+:::
+
+::: {.project-card}
+### [How Flocks Occur in Nature *(2021)*](https://github.com/bleonardi)
+Undergraduate mathematics thesis analyzing emergent collective behavior via the boids algorithm — local interaction rules that produce global flock dynamics without central coordination.
+
+::: {.tags}
+[Complexity]{.tag} [Mathematics]{.tag}
+:::
+:::

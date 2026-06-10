@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Benedict Leonardi"
+  favicon: assets/favicon.ico
+  navbar:
+    left:
+      - href: index.qmd
+        text: About
+      - href: research.qmd
+        text: Research
+      - href: projects.qmd
+        text: Projects
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: github
+        href: https://github.com/bleonardi
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/benedict-leonardi/
+        aria-label: LinkedIn
+      - icon: envelope
+        href: mailto:leo.ben93@gmail.com
+        aria-label: Email
+
+format:
+  html:
+    theme: [flatly, assets/custom.scss]
+    toc: false
+    page-layout: article
+    linestretch: 1.7
+    link-external-newwindow: true

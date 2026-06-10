@@ -1,0 +1,80 @@
+/*-- scss:defaults --*/
+$font-family-sans-serif: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+$headings-font-family: "Merriweather", Georgia, serif;
+$headings-font-weight: 700;
+$body-color: #2d2d2d;
+$link-color: #1a6496;
+$navbar-bg: #2c3e50;
+$navbar-fg: #ecf0f1;
+
+/*-- scss:rules --*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+.quarto-title h1 {
+  font-size: 2rem;
+  border-bottom: 2px solid #2c3e50;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.project-card {
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  padding: 1.2rem 1.4rem;
+  margin-bottom: 1.2rem;
+  transition: box-shadow 0.15s ease;
+}
+
+.project-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.project-card h3 {
+  font-size: 1.05rem;
+  margin-bottom: 0.3rem;
+}
+
+.project-card .tags {
+  font-size: 0.78rem;
+  color: #6c757d;
+  margin-top: 0.5rem;
+}
+
+.tag {
+  background: #e9ecef;
+  border-radius: 3px;
+  padding: 1px 7px;
+  margin-right: 4px;
+  display: inline-block;
+}
+
+.section-rule {
+  border: none;
+  border-top: 2px solid #2c3e50;
+  margin: 2rem 0 1.2rem;
+}
+
+.cv-entry {
+  margin-bottom: 1.2rem;
+}
+
+.cv-entry .year {
+  color: #6c757d;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+.hero {
+  padding: 2.5rem 0 1.5rem;
+}
+
+.hero h1 {
+  font-size: 2.4rem;
+  border: none;
+}
+
+.hero .subtitle {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}

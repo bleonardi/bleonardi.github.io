@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Download PDF"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "Education",
+    "text": "Education\n\nPh.D. in Economics · University of Cincinnati, Lindner College of Business ::: {.year} 2024 – expected 2029\n\nWolfgang-Mayer Fellow in Economics :::\n\nMaster of Education · University of Notre Dame ::: {.year} 2022 – 2023\n\nACE Teaching Fellow :::\n\nB.A. in Economics and Mathematics · University of Cincinnati ::: {.year} 2018 – 2022\n\nUniversity Honors Program · Lindner Honors-PLUS Program :::"
+  },
+  {
+    "objectID": "cv.html#research",
+    "href": "cv.html#research",
+    "title": "Curriculum Vitae",
+    "section": "Research",
+    "text": "Research\n\nThe Sprawl Paradox: Redefining American Urbanity Through Density ::: {.year} 2025\n\nIntroduces the True Urban Core (TUC) metric for density-based city ranking. → :::\n\nTransit Fragmentation Research: Quantifying Governance Friction ::: {.year} 2025\n\nDevelops the Transit Fragmentation Index (TFI) using NTD data across 480+ urbanized areas. → :::\n\nTransportation ROI Analysis: OKI Region ::: {.year} 2025\n\nFiscal productivity analysis of federal transportation investment vs. property tax yield across 8 counties. → :::\n\nBrent Spence Bridge: Home Price Event Study ::: {.year} 2025\n\nEvent study of infrastructure milestone effects on residential prices in Cincinnati/NKY. → :::\n\nCanonical Rigidity & Sacred Space: US Catholic Parishes ::: {.year} 2025\n\nSpatial econometric analysis of parish boundary rigidity and urban land use inefficiency. → :::\n\nDo Federal Reserve Banks Research What Their Districts Produce? ::: {.year} 2025\n\nTopic modeling of ~18,300 Fed working papers against district industry composition. → :::"
+  },
+  {
+    "objectID": "cv.html#teaching",
+    "href": "cv.html#teaching",
+    "title": "Curriculum Vitae",
+    "section": "Teaching",
+    "text": "Teaching\n\nMathematics Educator · Notre Dame ACE Teaching Fellow ::: {.year} 2022 – 2024\n\nSecondary mathematics instruction. Concurrent M.Ed. completion through University of Notre Dame. :::"
+  },
+  {
+    "objectID": "cv.html#selected-skills",
+    "href": "cv.html#selected-skills",
+    "title": "Curriculum Vitae",
+    "section": "Selected Skills",
+    "text": "Selected Skills\nEconometrics & Statistics: Causal inference, panel data, spatial econometrics, time series, topic modeling\nGeospatial: R (sf, tidycensus, leaflet), PostGIS, Overture Maps\nProgramming: R, Python, SQL, Quarto/RMarkdown, Shiny\nData Sources: US Census ACS, BLS QCEW, NTD, OpenAlex API, USASpending.gov"
+  },
+  {
+    "objectID": "cv.html#contact",
+    "href": "cv.html#contact",
+    "title": "Curriculum Vitae",
+    "section": "Contact",
+    "text": "Contact\nEmail: leo.ben93@gmail.com GitHub: github.com/bleonardi LinkedIn: linkedin.com/in/benedict-leonardi"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Standalone tools, demos, and exploratory analyses outside of formal research papers.\n\n\nCensus Exploration: Tri-State Spatial Analysis\nA collection of exploratory spatial analyses and visualizations using ACS 5-year estimates for Ohio, Kentucky, and Indiana. Demonstrates choropleth mapping, interactive Leaflet maps, and demographic profiling via tidycensus.\n\nCensus Geospatial R · Leaflet\n\n\n\nNewport Crash Analysis\nPoisson regression study evaluating the effect of crosswalk removal on crash frequency at a Newport, KY intersection. Uses scraped KYTC incident data and spatial filtering to isolate the intersection-level treatment effect.\n\nTransportation Safety Causal Inference R · Python\n\n\n\nolmOCR HuggingFace Space\nA Gradio interface for the Allen Institute’s olmOCR PDF-to-text conversion model, deployed as a public HuggingFace Space.\n\nNLP Python HuggingFace\n\n\n\nHow Flocks Occur in Nature (2021)\nUndergraduate mathematics thesis analyzing emergent collective behavior via the boids algorithm — local interaction rules that produce global flock dynamics without central coordination.\n\nComplexity Mathematics"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Research on urban economics, public finance, and institutional analysis. All projects use reproducible workflows in R and/or Python with Quarto for documentation."
+  },
+  {
+    "objectID": "research.html#working-papers-data-projects",
+    "href": "research.html#working-papers-data-projects",
+    "title": "Research",
+    "section": "Working Papers & Data Projects",
+    "text": "Working Papers & Data Projects\n\nThe Sprawl Paradox: Redefining American Urbanity Through Density\nChallenges conventional US city population rankings, which are distorted by arbitrary political consolidations. Introduces the True Urban Core (TUC) metric — the contiguous population within Census tracts exceeding 10,000 people per square mile. When applied consistently, cities like Phoenix and Indianapolis drop sharply while Boston and San Francisco emerge as the nation’s true urban heavyweights.\n\nUrban Economics Geospatial Analysis Census R\n\n\n\nTransit Fragmentation Research: Quantifying Governance Friction\nIntroduces the Transit Fragmentation Index (TFI), derived from an inverse HHI of ridership-weighted agency shares, to quantify institutional “friction” across US metropolitan transit systems. Analyzes 480+ urbanized areas using 2023 NTD data. Finds that fragmented regions (e.g., SF Bay Area, TFI: 17.0) suffer a quantifiable per-capita ridership penalty relative to consolidated systems (e.g., New York, TFI: 6.7).\n\nUrban Economics Transportation Institutional Analysis R · Python\n\n\n\nTransportation ROI Analysis: OKI Region\nMeasures fiscal productivity against federal infrastructure investment across the 8-county Ohio-Kentucky-Indiana region. Urban tracts generate approximately 17× more property tax revenue per acre than sprawl-classified tracts, yet suburban areas receive the highest per-acre federal transportation investment — a pattern consistent with structural cross-subsidy from urban to low-density areas.\n\nPublic Finance Transportation Geospatial R · Python\n\n\n\nBrent Spence Bridge: Home Price Event Study\nAn event study tracking residential home price responses to major Brent Spence Bridge corridor milestones (federal grant, contractor award, groundbreaking). Identifies a significant “landing zone” effect: ZIP codes within 1 mile of the I-75/BSB corridor outperformed the broader Cincinnati–Northern Kentucky market by roughly 8.5 percentage points since the 2020 fire.\n\nReal Estate Economics Event Study Time Series R\n\n\n\nCanonical Rigidity & Sacred Space: US Catholic Parishes\nA spatial econometric study of the US Catholic Church, examining the misalignment between legacy territorial boundaries and modern urban demand. Uses Voronoi tessellations to define “natural market areas” against canonical parish boundaries, quantifies spatial leakage where parishioners bypass assigned parishes, and estimates opportunity costs of underutilized surface parking in high-density cores using Overture Maps building footprints.\n\nSpatial Econometrics Urban Land Use R · Python\n\n\n\nDo Federal Reserve Banks Research What Their Districts Produce?\nTopic-models approximately 18,300 Federal Reserve working papers (2010–2024) using keyATM with 10 seeded topics, then correlates each Fed’s research portfolio against district industry composition from BLS QCEW data. Midwest Feds show the strongest alignment; Boston, Philadelphia, and San Francisco are most misaligned, with research diverging from local economic specialization.\n\nTopic Modeling Federal Reserve NLP R"
+  },
+  {
+    "objectID": "research.html#coursework-seminar-papers",
+    "href": "research.html#coursework-seminar-papers",
+    "title": "Research",
+    "section": "Coursework & Seminar Papers",
+    "text": "Coursework & Seminar Papers\n\nPopulation Projection Using a Variety of Approaches\nNeighborhood-level population forecasting for the OKI region using dynamic linear models, gradient boosted models, and Hamilton-Perry methodology. Interactive Shiny application.\n\nDemography Forecasting R · Shiny\n\n\n\nPopulation Projection Using Satellite Imagery\nSpatial models and machine learning on Landsat imagery for population estimation. Remote sensing methods course project.\n\nRemote Sensing Machine Learning R\n\n\n\nBaumol’s Cost Disease\nTime series analysis examining how productivity improvements in traded sectors drive compensation increases in non-traded sectors, with applications to public services.\n\nLabor Economics Time Series\n\n\n\nAn Evaluation of a Transit Tax\nInteractive tool examining the distributional consequences of Cincinnati Metro’s potential shift from an employer income tax to a sales tax for transit funding.\n\nPublic Finance Transit R · Shiny\n\n\n\nText Similarity Modeling\nHathiTrust-based digital humanities research using NLP for historical text analysis and automated report generation. GitHub\n\nNLP Digital Humanities Python"
+  },
+  {
+    "objectID": "research.html#essays-philosophical-work",
+    "href": "research.html#essays-philosophical-work",
+    "title": "Research",
+    "section": "Essays & Philosophical Work",
+    "text": "Essays & Philosophical Work\n\nThree Roads Diverged in a City\nReflection on Alasdair MacIntyre’s framework of moral inquiry traditions and its implications for urban planning and design — examining how rival normative traditions produce rival spatial visions of the city.\n\nUrban Theory Philosophy\n\n\n\nAll is Seared with Trade (2023)\nA philosophical and theological examination of paying students for academic outcomes, probing the commensurability of intrinsic educational goods with market incentives.\n\nPhilosophy of Economics Education"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Benedict Leonardi",
+    "section": "",
+    "text": "Ph.D. Student in Economics · Lindner College of Business, University of Cincinnati\n\nEmail GitHub LinkedIn CV"
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Benedict Leonardi",
+    "section": "Research Interests",
+    "text": "Research Interests\nMy primary interests lie in urban and regional economics — the spatial organization of cities, the economics of public infrastructure, and how institutional arrangements shape access to opportunity. I approach these questions empirically, drawing on geospatial methods, causal inference, and large administrative datasets, while remaining attentive to the historical and normative dimensions that shape how economic models are constructed and interpreted.\nI am particularly interested in how governance fragmentation, land-use rigidity, and fiscal structure interact to produce unequal urban outcomes."
+  },
+  {
+    "objectID": "index.html#background",
+    "href": "index.html#background",
+    "title": "Benedict Leonardi",
+    "section": "Background",
+    "text": "Background\nI came to economics through an unusual path. I began in mathematics and philosophy at the University of Cincinnati, worked as a K–12 mathematics educator through Notre Dame’s Alliance for Catholic Education, and completed a Master of Education before returning to graduate study in economics. That background informs my interest in the normative foundations of empirical work — specifically, how classical and medieval moral frameworks intersect with contemporary economic assumptions.\nPrior work includes grant-funded research on mathematics education, studies of local transit tax policy and public finance, and digital humanities projects using natural language processing on historical texts."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Benedict Leonardi",
+    "section": "Education",
+    "text": "Education\nPh.D. in Economics (expected 2029) · University of Cincinnati, Lindner College of Business Wolfgang-Mayer Fellow in Economics\nMaster of Education · University of Notre Dame ACE Teaching Fellow\nB.A. in Economics and Mathematics · University of Cincinnati University Honors Program · Lindner Honors-PLUS Program"
+  }
+]

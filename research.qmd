@@ -1,0 +1,142 @@
+---
+title: "Research"
+toc: true
+toc-depth: 2
+---
+
+Research on urban economics, public finance, and institutional analysis. All projects use reproducible workflows in R and/or Python with Quarto for documentation.
+
+---
+
+## Working Papers & Data Projects
+
+::: {.project-card}
+### [The Sprawl Paradox: Redefining American Urbanity Through Density](https://bleonardi.github.io/True_Urban_Ranking_Project/)
+
+Challenges conventional US city population rankings, which are distorted by arbitrary political consolidations. Introduces the **True Urban Core (TUC)** metric — the contiguous population within Census tracts exceeding 10,000 people per square mile. When applied consistently, cities like Phoenix and Indianapolis drop sharply while Boston and San Francisco emerge as the nation's true urban heavyweights.
+
+::: {.tags}
+[Urban Economics]{.tag} [Geospatial Analysis]{.tag} [Census]{.tag} [R]{.tag}
+:::
+:::
+
+::: {.project-card}
+### [Transit Fragmentation Research: Quantifying Governance Friction](https://bleonardi.github.io/Transit_Fragmentation_Research/)
+
+Introduces the **Transit Fragmentation Index (TFI)**, derived from an inverse HHI of ridership-weighted agency shares, to quantify institutional "friction" across US metropolitan transit systems. Analyzes 480+ urbanized areas using 2023 NTD data. Finds that fragmented regions (e.g., SF Bay Area, TFI: 17.0) suffer a quantifiable per-capita ridership penalty relative to consolidated systems (e.g., New York, TFI: 6.7).
+
+::: {.tags}
+[Urban Economics]{.tag} [Transportation]{.tag} [Institutional Analysis]{.tag} [R · Python]{.tag}
+:::
+:::
+
+::: {.project-card}
+### [Transportation ROI Analysis: OKI Region](https://bleonardi.github.io/Transportation_ROI_Analysis/)
+
+Measures fiscal productivity against federal infrastructure investment across the 8-county Ohio-Kentucky-Indiana region. Urban tracts generate approximately **17× more property tax revenue per acre** than sprawl-classified tracts, yet suburban areas receive the highest per-acre federal transportation investment — a pattern consistent with structural cross-subsidy from urban to low-density areas.
+
+::: {.tags}
+[Public Finance]{.tag} [Transportation]{.tag} [Geospatial]{.tag} [R · Python]{.tag}
+:::
+:::
+
+::: {.project-card}
+### [Brent Spence Bridge: Home Price Event Study](https://bleonardi.github.io/BSB_Impact_Analysis/)
+
+An event study tracking residential home price responses to major Brent Spence Bridge corridor milestones (federal grant, contractor award, groundbreaking). Identifies a significant "landing zone" effect: ZIP codes within 1 mile of the I-75/BSB corridor outperformed the broader Cincinnati–Northern Kentucky market by roughly **8.5 percentage points** since the 2020 fire.
+
+::: {.tags}
+[Real Estate Economics]{.tag} [Event Study]{.tag} [Time Series]{.tag} [R]{.tag}
+:::
+:::
+
+::: {.project-card}
+### [Canonical Rigidity & Sacred Space: US Catholic Parishes](https://bleonardi.github.io/US_Catholic_Churches/)
+
+A spatial econometric study of the US Catholic Church, examining the misalignment between legacy territorial boundaries and modern urban demand. Uses Voronoi tessellations to define "natural market areas" against canonical parish boundaries, quantifies spatial leakage where parishioners bypass assigned parishes, and estimates opportunity costs of underutilized surface parking in high-density cores using Overture Maps building footprints.
+
+::: {.tags}
+[Spatial Econometrics]{.tag} [Urban Land Use]{.tag} [R · Python]{.tag}
+:::
+:::
+
+::: {.project-card}
+### [Do Federal Reserve Banks Research What Their Districts Produce?](https://bleonardi.github.io/Fed_Research_Districts/)
+
+Topic-models approximately **18,300 Federal Reserve working papers** (2010–2024) using keyATM with 10 seeded topics, then correlates each Fed's research portfolio against district industry composition from BLS QCEW data. Midwest Feds show the strongest alignment; Boston, Philadelphia, and San Francisco are most misaligned, with research diverging from local economic specialization.
+
+::: {.tags}
+[Topic Modeling]{.tag} [Federal Reserve]{.tag} [NLP]{.tag} [R]{.tag}
+:::
+:::
+
+---
+
+## Coursework & Seminar Papers
+
+::: {.project-card}
+### [Population Projection Using a Variety of Approaches](https://oki-data.shinyapps.io/dynamic_projections/)
+Neighborhood-level population forecasting for the OKI region using dynamic linear models, gradient boosted models, and Hamilton-Perry methodology. Interactive Shiny application.
+
+::: {.tags}
+[Demography]{.tag} [Forecasting]{.tag} [R · Shiny]{.tag}
+:::
+:::
+
+::: {.project-card}
+### Population Projection Using Satellite Imagery
+Spatial models and machine learning on Landsat imagery for population estimation. Remote sensing methods course project.
+
+::: {.tags}
+[Remote Sensing]{.tag} [Machine Learning]{.tag} [R]{.tag}
+:::
+:::
+
+::: {.project-card}
+### Baumol's Cost Disease
+Time series analysis examining how productivity improvements in traded sectors drive compensation increases in non-traded sectors, with applications to public services.
+
+::: {.tags}
+[Labor Economics]{.tag} [Time Series]{.tag}
+:::
+:::
+
+::: {.project-card}
+### [An Evaluation of a Transit Tax](https://benedictleonardi.shinyapps.io/METRO_tax_analysis/)
+Interactive tool examining the distributional consequences of Cincinnati Metro's potential shift from an employer income tax to a sales tax for transit funding.
+
+::: {.tags}
+[Public Finance]{.tag} [Transit]{.tag} [R · Shiny]{.tag}
+:::
+:::
+
+::: {.project-card}
+### Text Similarity Modeling
+HathiTrust-based digital humanities research using NLP for historical text analysis and automated report generation. [GitHub](https://github.com/bleonardi/text_similarity_and_modeling)
+
+::: {.tags}
+[NLP]{.tag} [Digital Humanities]{.tag} [Python]{.tag}
+:::
+:::
+
+---
+
+## Essays & Philosophical Work
+
+::: {.project-card}
+### Three Roads Diverged in a City
+Reflection on Alasdair MacIntyre's framework of moral inquiry traditions and its implications for urban planning and design — examining how rival normative traditions produce rival spatial visions of the city.
+
+::: {.tags}
+[Urban Theory]{.tag} [Philosophy]{.tag}
+:::
+:::
+
+::: {.project-card}
+### All is Seared with Trade *(2023)*
+A philosophical and theological examination of paying students for academic outcomes, probing the commensurability of intrinsic educational goods with market incentives.
+
+::: {.tags}
+[Philosophy of Economics]{.tag} [Education]{.tag}
+:::
+:::

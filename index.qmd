@@ -1,0 +1,48 @@
+---
+title: "Benedict Leonardi"
+subtitle: "Graduate Student in Economics · University of Cincinnati"
+page-layout: full
+toc: false
+---
+
+::: {.hero}
+# Benedict Leonardi
+
+::: {.subtitle}
+Ph.D. Student in Economics · Lindner College of Business, University of Cincinnati
+:::
+
+[Email](mailto:leo.ben93@gmail.com){.btn .btn-outline-primary .btn-sm}
+[GitHub](https://github.com/bleonardi){.btn .btn-outline-secondary .btn-sm}
+[LinkedIn](https://www.linkedin.com/in/benedict-leonardi/){.btn .btn-outline-secondary .btn-sm}
+[CV](cv.qmd){.btn .btn-outline-secondary .btn-sm}
+:::
+
+---
+
+## Research Interests
+
+My primary interests lie in **urban and regional economics** — the spatial organization of cities, the economics of public infrastructure, and how institutional arrangements shape access to opportunity. I approach these questions empirically, drawing on geospatial methods, causal inference, and large administrative datasets, while remaining attentive to the historical and normative dimensions that shape how economic models are constructed and interpreted.
+
+I am particularly interested in how governance fragmentation, land-use rigidity, and fiscal structure interact to produce unequal urban outcomes.
+
+---
+
+## Background
+
+I came to economics through an unusual path. I began in mathematics and philosophy at the University of Cincinnati, worked as a K–12 mathematics educator through Notre Dame's Alliance for Catholic Education, and completed a Master of Education before returning to graduate study in economics. That background informs my interest in the normative foundations of empirical work — specifically, how classical and medieval moral frameworks intersect with contemporary economic assumptions.
+
+Prior work includes grant-funded research on mathematics education, studies of local transit tax policy and public finance, and digital humanities projects using natural language processing on historical texts.
+
+---
+
+## Education
+
+**Ph.D. in Economics** (expected 2029) · University of Cincinnati, Lindner College of Business
+*Wolfgang-Mayer Fellow in Economics*
+
+**Master of Education** · University of Notre Dame
+*ACE Teaching Fellow*
+
+**B.A. in Economics and Mathematics** · University of Cincinnati
+*University Honors Program · Lindner Honors-PLUS Program*
