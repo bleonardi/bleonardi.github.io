@@ -4,31 +4,89 @@
   align-items: flex-start;
 }
 
+/* Profile card — left sidebar */
+.profile-sidebar {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 14px;
+  padding: 2.2rem 1.4rem 1.8rem;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.07);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.profile-sidebar::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #2c3e50, #666);
+}
+
 .profile-photo {
-  width: 100%;
-  max-width: 200px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
+  object-fit: cover;
   display: block;
-  margin: 0 auto 1.2rem;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  margin: 0 auto 1.1rem;
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 1px #e8e8e8, 0 4px 14px rgba(0,0,0,0.1);
+  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.profile-sidebar:hover .profile-photo {
+  transform: scale(1.03);
+}
+
+.profile-name {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0 0 0.25rem;
+  letter-spacing: -0.01em;
+}
+
+.profile-role {
+  font-size: 0.78rem;
+  color: #666;
+  margin: 0;
+  line-height: 1.6;
 }
 
 .contact-block {
-  font-size: 0.88rem;
-  line-height: 1.9;
+  font-size: 0.78rem;
+  margin-top: 1.2rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid #e8e8e8;
   text-align: center;
 }
 
 .contact-block a {
   display: block;
-  color: #1a6496;
+  color: #4a4a4a;
+  padding: 0.28rem 0;
+  text-decoration: none;
+  transition: color 0.14s ease;
+}
+
+.contact-block a:hover {
+  color: #2c3e50;
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
   .hero-section {
     flex-direction: column;
   }
+  .profile-sidebar {
+    max-width: 260px;
+    margin: 0 auto 2rem;
+  }
   .profile-photo {
-    max-width: 140px;
+    width: 110px;
+    height: 110px;
   }
 }

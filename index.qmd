@@ -7,30 +7,29 @@ css: assets/home.css
 
 :::: {.columns .hero-section}
 
-::: {.column width="28%"}
+::: {.column width="26%"}
+::: {.profile-sidebar}
 ![](assets/profile.jpg){.profile-photo}
 
-::: {.contact-block}
-**Benedict Leonardi**\
-Data Scientist · 84.51°
+[**Benedict Leonardi**]{.profile-name}
 
+[Data Scientist · 84.51°]{.profile-role}
+[Ph.D. Candidate *(on leave)* · U. of Cincinnati]{.profile-role}
+
+::: {.contact-block}
 [leo.ben93\@gmail.com](mailto:leo.ben93@gmail.com)\
 [github.com/bleonardi](https://github.com/bleonardi)\
 [LinkedIn](https://www.linkedin.com/in/benedict-leonardi/)
+:::
 :::
 :::
 
 ::: {.column width="4%"}
 :::
 
-::: {.column width="68%"}
+::: {.column width="70%"}
 
 ## Benedict Leonardi
-
-Data Scientist · 84.51°\
-Ph.D. Candidate in Economics *(on leave)* · University of Cincinnati
-
----
 
 I am currently a data scientist at 84.51°, the data science and analytics subsidiary of Kroger. I am on leave from my doctoral program in economics at the University of Cincinnati's Lindner College of Business — a decision made happily upon the arrival of my first child. My primary interests lie in urban and regional economics, but in my broader approach I strive to be interdisciplinary — anchored in empirical analysis and enriched by historical and philosophical inquiry.
 
