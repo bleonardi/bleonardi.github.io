@@ -77,6 +77,18 @@ A spatial econometric study of how 19th-century parish boundary structures misal
 :::
 
 ::: {.project-card}
+### [What's in a Street Name?](https://bleonardi.github.io/Street_Type_Divergence/)
+
+**How street suffix types lost their meaning across eras of American development**
+
+Street suffixes — Road, Court, Boulevard, Lane — once carried typological meaning. This analysis tests empirically whether that meaning persists, using OpenStreetMap geometry across four states (Ohio, Kentucky, Rhode Island, Connecticut) cross-referenced with Census building-era data. The core finding: by the 1980s, most suffixes are statistically indistinguishable on intersection density and segment length. A divergence score benchmarks each suffix against its pre-modern archetype. Road remains the most honest suffix; Boulevard has drifted the farthest from its original form.
+
+::: {.tags}
+[Urban Morphology]{.tag} [OSM]{.tag} [Geospatial Analysis]{.tag} [Python]{.tag}
+:::
+:::
+
+::: {.project-card}
 ### [Federal Reserve Research Alignment](https://bleonardi.github.io/Fed_Research_Districts/)
 
 **Do Fed Banks Study What Their Districts Produce?**
