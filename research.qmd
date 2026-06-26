@@ -99,8 +99,10 @@ The project is methodologically careful about identification: regression discont
 
 Street suffixes — Road, Court, Boulevard, Lane — once carried typological meaning. This analysis tests empirically whether that meaning persists, using OpenStreetMap geometry across four states (Ohio, Kentucky, Rhode Island, Connecticut) cross-referenced with Census building-era data. The core finding: by the 1980s, most suffixes are statistically indistinguishable on intersection density and segment length. A divergence score benchmarks each suffix against its pre-modern archetype. Road remains the most honest suffix; Boulevard has drifted the farthest from its original form.
 
+A [spatial mimesis extension](https://bleonardi.github.io/Street_Type_Divergence/spatial.html) asks whether cul-de-sac adoption spread by neighborhood copying. Year-by-year OLS across 207,000 block groups finds mimetic spillover β rising from 0.60 in 1940 to a peak of 0.90 in the early 1980s — the height of the planning monoculture — then falling to 0.67 by 2010 as New Urbanism eroded the dominant design vocabulary.
+
 ::: {.tags}
-[Urban Morphology]{.tag} [OSM]{.tag} [Geospatial Analysis]{.tag} [Python]{.tag}
+[Urban Morphology]{.tag} [OSM]{.tag} [Spatial Econometrics]{.tag} [Geospatial Analysis]{.tag} [Python]{.tag}
 :::
 :::
 
