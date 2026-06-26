@@ -4,15 +4,15 @@ toc: true
 toc-depth: 2
 ---
 
-My primary research interest is the spatial mismatch between American metropolitan institutions and the actual distribution of urban economic density. The projects below document this mismatch across three domains and trace its consequences for measurement, governance, and public finance.
+My research sits at the intersection of empirical social science and the kind of questions that don't resolve neatly into regression tables. The organizing thread is something like: *how do inherited structures — boundaries, institutions, vocabularies, doctrines — shape what we can see, measure, and govern?* The projects below approach that question from several directions.
 
-**The measurement problem:** Official city population figures are shaped by 20th-century boundary consolidations that have little to do with where people actually live at urban densities. [The Sprawl Paradox](#the-sprawl-paradox) introduces a corrected measure.
+**Spatial and institutional mismatch** is the most developed strand. Official city population figures, metropolitan governance structures, and federal spending formulas all inherit 20th-century boundary logics that diverge sharply from where urban density actually sits today. [The Sprawl Paradox](#the-sprawl-paradox) introduces a corrected density measure; [Transit Fragmentation](#transit-fragmentation) and [Transportation ROI](#transportation-roi-oki-region) trace the fiscal and mobility costs; [Federal Reserve alignment](#federal-reserve-research-alignment) asks whether research institutions reproduce the same blind spots.
 
-**The governance and fiscal costs:** When metropolitan governance and spending formulas inherit boundary distortions, dense areas systematically subsidize dispersed ones. The [Transit Fragmentation](#transit-fragmentation) and [Transportation ROI](#transportation-roi-oki-region) analyses document this in mobility and public finance.
+**Institutional persistence** connects the spatial work to a broader question about why organizations hold inherited structures even when those structures misallocate resources. The [Catholic parishes](#canonical-rigidity-us-catholic-parishes) analysis applies this lens to canonical boundary law; the [papal continuity](#continuity-and-rupture-in-papal-teaching) project extends it to the documentary record of magisterial teaching — testing whether Vatican II represents the radical rupture its critics and champions both claim.
 
-**The epistemic question:** Do the research institutions charged with understanding regional economies also reproduce the same boundary logic? The [Federal Reserve alignment](#federal-reserve-research-alignment) analysis is an early pass at this question.
+**Language as evidence** runs through several projects. If institutions encode their commitments in text, then shifts in vocabulary, readability, and rhetorical structure are not merely stylistic — they are data. The [street names](#whats-in-a-street-name) project reads urban morphology through suffix drift; the papal project uses ITS and diff-in-diff on a 150-year corpus. The earlier HathiTrust NLP work is the methodological precursor to both.
 
-A fourth strand — the [Catholic parishes](#canonical-rigidity-us-catholic-parishes) work — sits slightly outside this core thread but shares the same underlying concern: how legacy institutional boundaries misallocate resources in spatially heterogeneous environments.
+The essays and philosophical pieces collected below make the normative commitments more explicit — they are the part of the work I cannot, and do not want to, hide behind the standard errors.
 
 ---
 
@@ -73,6 +73,22 @@ A spatial econometric study of how 19th-century parish boundary structures misal
 
 ::: {.tags}
 [Spatial Econometrics]{.tag} [Urban Land Use]{.tag} [R · Python]{.tag}
+:::
+:::
+
+::: {.project-card}
+### [Continuity and Rupture in Papal Teaching](https://bleonardi.github.io/papal-continuity-analysis/)
+
+**Did Vatican II Break with Tradition? A Text-as-Data Test**
+
+The "rupture narrative" holds that the Second Vatican Council (1962–65) marked a decisive break in Catholic teaching — celebrated by progressive Catholics, lamented by traditionalists, and largely taken for granted by both. This project tests that claim empirically against 150 years of papal encyclicals. Using interrupted time series (ITS), difference-in-differences, and within-tradition cosine similarity, the analysis asks whether Vatican II produced a detectable discontinuity in the *style, complexity, vocabulary, and thematic emphasis* of magisterial documents — or whether the textual record supports the hermeneutics of continuity advanced by Benedict XVI.
+
+The analysis spans six traditions (Catholic, LDS, Anglican, SBC, Orthodox, and USCCB) and a corpus of nearly 2,000 documents. Across most measures, the Catholic encyclical series shows *less* discontinuity at 1965 than peer Christian traditions show at their own watershed moments. USCCB pastoral letters — which post-date the Council and thus cannot serve as a pre/post control — track Roman encyclicals closely in complexity and style, suggesting downstream coherence rather than rupture.
+
+The project is methodologically careful about identification: regression discontinuity is rejected as a primary approach because popes demonstrably time documents strategically, violating the no-manipulation assumption (Paul VI held *Humanae Vitae* through the Council itself). ITS with robust standard errors is the preferred estimator.
+
+::: {.tags}
+[Text Analysis]{.tag} [ITS · DiD]{.tag} [Catholic Studies]{.tag} [NLP]{.tag} [Python]{.tag}
 :::
 :::
 

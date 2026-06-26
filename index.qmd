@@ -43,11 +43,11 @@ I hold a B.A. in Economics and Mathematics from the University of Cincinnati, a 
 
 ### Recent Work
 
+- [Continuity and Rupture in Papal Teaching](https://bleonardi.github.io/papal-continuity-analysis/) — text-as-data test of the Vatican II rupture narrative
 - [The Sprawl Paradox](https://bleonardi.github.io/True_Urban_Ranking_Project/) — density-based city reranking and fiscal ROI
 - [Transit Fragmentation](https://bleonardi.github.io/Transit_Fragmentation_Research/) — governance friction in US metro transit
 - [Fed Research Alignment](https://bleonardi.github.io/Fed_Research_Districts/) — do Feds study what their districts produce?
 - [Canonical Rigidity: Catholic Parishes](https://bleonardi.github.io/US_Catholic_Churches/) — spatial mismatch and institutional boundaries
-- [What's in a Street Name?](https://bleonardi.github.io/Street_Type_Divergence/) — how street suffix types lost their meaning
 
 [All research →](research.qmd){.btn .btn-outline-primary .btn-sm}
 [CV →](cv.qmd){.btn .btn-outline-secondary .btn-sm}
