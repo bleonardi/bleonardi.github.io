@@ -4,7 +4,9 @@ toc: true
 toc-depth: 2
 ---
 
-My research sits at the intersection of empirical social science and the kind of questions that don't resolve neatly into regression tables. The organizing thread is something like: *how do inherited structures — boundaries, institutions, vocabularies, doctrines — shape what we can see, measure, and govern?* The projects below approach that question from several directions.
+My research is fairly disparate in content but attempts to utilize the techniques favored by quantitative social science, especially economics, to answer questions that the technocractic approach tends to elide (or... just disregard as problems in the first place).
+
+For example, much of my work tends to center on the friction between supposedly rationalistic, 'science-driven' institutions and structures shape how/what we see, measure. For instance, some work touches on:
 
 **Spatial and institutional mismatch** is the most developed strand. Official city population figures, metropolitan governance structures, and federal spending formulas all inherit 20th-century boundary logics that diverge sharply from where urban density actually sits today. [The Sprawl Paradox](#the-sprawl-paradox) introduces a corrected density measure; [Transit Fragmentation](#transit-fragmentation) and [Transportation ROI](#transportation-roi-oki-region) trace the fiscal and mobility costs; [Federal Reserve alignment](#federal-reserve-research-alignment) asks whether research institutions reproduce the same blind spots.
 
