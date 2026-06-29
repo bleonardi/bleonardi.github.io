@@ -4,7 +4,7 @@ toc: true
 toc-depth: 2
 ---
 
-My research is fairly disparate in content but attempts to utilize the techniques favored by quantitative social science, especially economics, to answer questions that the technocractic approach tends to elide (or... just disregard as problems in the first place).
+My research is fairly disparate in content but attempts to utilize the techniques favored by quantitative social science, especially economics, to answer questions that the technocractic approach tends to elide (or... just disregard as worth answering in the first place).
 
 For example, much of my work tends to center on the friction between supposedly rationalistic, 'science-driven' institutions and structures shape how/what we see, measure. For instance, some work touches on:
 
