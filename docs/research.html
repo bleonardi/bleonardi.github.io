@@ -140,7 +140,6 @@ ul.task-list li input[type="checkbox"] {
    
   <ul class="collapse">
   <li><a href="#research-projects" id="toc-research-projects" class="nav-link active" data-scroll-target="#research-projects">Research Projects</a></li>
-  <li><a href="#coursework-seminar-work" id="toc-coursework-seminar-work" class="nav-link" data-scroll-target="#coursework-seminar-work">Coursework &amp; Seminar Work</a></li>
   <li><a href="#essays-philosophical-work" id="toc-essays-philosophical-work" class="nav-link" data-scroll-target="#essays-philosophical-work">Essays &amp; Philosophical Work</a></li>
   </ul>
 </nav>
@@ -228,7 +227,6 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Did Vatican II Break with Tradition? A Text-as-Data Test</strong></p>
 <p>The “rupture narrative” holds that the Second Vatican Council (1962–65) marked a decisive break in Catholic teaching — celebrated by progressive Catholics, lamented by traditionalists, and largely taken for granted by both. This project tests that claim empirically against 150 years of papal encyclicals. Using interrupted time series (ITS), difference-in-differences, and within-tradition cosine similarity, the analysis asks whether Vatican II produced a detectable discontinuity in the <em>style, complexity, vocabulary, and thematic emphasis</em> of magisterial documents — or whether the textual record supports the hermeneutics of continuity advanced by Benedict XVI.</p>
 <p>The analysis spans six traditions (Catholic, LDS, Anglican, SBC, Orthodox, and USCCB) and a corpus of nearly 2,000 documents. Across most measures, the Catholic encyclical series shows <em>less</em> discontinuity at 1965 than peer Christian traditions show at their own watershed moments. USCCB pastoral letters — which post-date the Council and thus cannot serve as a pre/post control — track Roman encyclicals closely in complexity and style, suggesting downstream coherence rather than rupture.</p>
-<p>The project is methodologically careful about identification: regression discontinuity is rejected as a primary approach because popes demonstrably time documents strategically, violating the no-manipulation assumption (Paul VI held <em>Humanae Vitae</em> through the Council itself). ITS with robust standard errors is the preferred estimator.</p>
 <div class="tags">
 <p><span class="tag">Text Analysis</span> <span class="tag">ITS · DiD</span> <span class="tag">Catholic Studies</span> <span class="tag">NLP</span> <span class="tag">Python</span></p>
 </div>
@@ -237,17 +235,8 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="whats-in-a-street-name"><a href="https://bleonardi.github.io/Street_Type_Divergence/">What’s in a Street Name?</a></h3>
 <p><strong>How street suffix types lost their meaning across eras of American development</strong></p>
 <p>Street suffixes — Road, Court, Boulevard, Lane — once carried typological meaning. This analysis tests empirically whether that meaning persists, using OpenStreetMap geometry across four states (Ohio, Kentucky, Rhode Island, Connecticut) cross-referenced with Census building-era data. The core finding: by the 1980s, most suffixes are statistically indistinguishable on intersection density and segment length. A divergence score benchmarks each suffix against its pre-modern archetype. Road remains the most honest suffix; Boulevard has drifted the farthest from its original form.</p>
-<p>A <a href="https://bleonardi.github.io/Street_Type_Divergence/spatial.html">spatial mimesis extension</a> asks whether cul-de-sac adoption spread by neighborhood copying. Year-by-year OLS across 207,000 block groups finds mimetic spillover β rising from 0.60 in 1940 to a peak of 0.90 in the early 1980s — the height of the planning monoculture — then falling to 0.67 by 2010 as New Urbanism eroded the dominant design vocabulary.</p>
 <div class="tags">
 <p><span class="tag">Urban Morphology</span> <span class="tag">OSM</span> <span class="tag">Spatial Econometrics</span> <span class="tag">Geospatial Analysis</span> <span class="tag">Python</span></p>
-</div>
-</section>
-<section id="braesss-paradox-in-sport" class="level3 project-card">
-<h3 class="anchored" data-anchor-id="braesss-paradox-in-sport"><a href="https://bleonardi.github.io/Braess_Paradox_Sports/">Braess’s Paradox in Sport</a></h3>
-<p><strong>Do teams score more efficiently with fewer players?</strong></p>
-<p>Braess’s paradox predicts that removing options from a network can improve collective outcomes — because individually rational choices under a richer option set converge on a worse equilibrium than a constrained set would. Applied to team sports: does a numerical disadvantage (hockey power play, soccer red card) ever produce higher scoring efficiency per opportunity? Nine NHL seasons (932K shots) reject the hypothesis with high confidence — man-up teams convert ~13% better per shot-quality unit than man-down teams. Soccer (254 red cards across four competition strata) remains underpowered and directionally incoherent across strata.</p>
-<div class="tags">
-<p><span class="tag">Sports Analytics</span> <span class="tag">Network Theory</span> <span class="tag">Causal Inference</span> <span class="tag">R</span></p>
 </div>
 </section>
 <section id="road-design-fragmentation-nky-vs.-cincinnati" class="level3 project-card">
@@ -258,51 +247,20 @@ ul.task-list li input[type="checkbox"] {
 <p><span class="tag">Urban Design</span> <span class="tag">Pedestrian Safety</span> <span class="tag">Geospatial</span> <span class="tag">R</span></p>
 </div>
 </section>
+<section id="newport-crash-analysis" class="level3 project-card">
+<h3 class="anchored" data-anchor-id="newport-crash-analysis"><a href="https://bleonardi.github.io/Newport_Crashes/">Newport Crash Analysis</a></h3>
+<p><strong>Crosswalk removal and crash frequency at a Newport, KY intersection</strong></p>
+<p>After nearly getting struck at an intersection in historic Newport, KY, this analysis investigates what happened when the city removed a crosswalk following an accident that destroyed a signal pole. A Poisson regression models monthly crash counts as a function of time, citywide crash activity, and a post-removal indicator — isolating the intersection-level treatment effect from scraped KYTC incident data.</p>
+<div class="tags">
+<p><span class="tag">Transportation Safety</span> <span class="tag">Causal Inference</span> <span class="tag">R · Python</span></p>
+</div>
+</section>
 <section id="federal-reserve-research-alignment" class="level3 project-card">
 <h3 class="anchored" data-anchor-id="federal-reserve-research-alignment"><a href="https://bleonardi.github.io/Fed_Research_Districts/">Federal Reserve Research Alignment</a></h3>
 <p><strong>Do Fed Banks Study What Their Districts Produce?</strong></p>
 <p>Topic-models ~18,300 Federal Reserve working papers (2010–2024) using keyATM with 10 seeded topics, then correlates each Bank’s research portfolio against district industry composition from BLS QCEW data. Midwest Feds show the strongest alignment; Boston, Philadelphia, and San Francisco are most misaligned, with research portfolios diverging substantially from local economic specialization. The Dallas Fed’s near-zero energy research score — despite oil and gas dominating district employment — appears to reflect that San Francisco captures climate and grid research under the same topic label.</p>
 <div class="tags">
 <p><span class="tag">Topic Modeling</span> <span class="tag">Federal Reserve</span> <span class="tag">NLP</span> <span class="tag">R</span></p>
-</div>
-</section>
-<hr>
-</section>
-<section id="coursework-seminar-work" class="level2">
-<h2 class="anchored" data-anchor-id="coursework-seminar-work">Coursework &amp; Seminar Work</h2>
-<section id="population-projection-using-a-variety-of-approaches" class="level3 project-card">
-<h3 class="anchored" data-anchor-id="population-projection-using-a-variety-of-approaches"><a href="https://oki-data.shinyapps.io/dynamic_projections/">Population Projection Using a Variety of Approaches</a></h3>
-<p>Neighborhood-level population forecasting for the OKI region using dynamic linear models, gradient boosted models, and Hamilton-Perry methodology. Interactive Shiny application.</p>
-<div class="tags">
-<p><span class="tag">Demography</span> <span class="tag">Forecasting</span> <span class="tag">R · Shiny</span></p>
-</div>
-</section>
-<section id="population-projection-using-satellite-imagery" class="level3 project-card">
-<h3 class="anchored" data-anchor-id="population-projection-using-satellite-imagery">Population Projection Using Satellite Imagery</h3>
-<p>Spatial models and machine learning on Landsat imagery for population estimation. Remote sensing methods course project.</p>
-<div class="tags">
-<p><span class="tag">Remote Sensing</span> <span class="tag">Machine Learning</span> <span class="tag">R</span></p>
-</div>
-</section>
-<section id="baumols-cost-disease" class="level3 project-card">
-<h3 class="anchored" data-anchor-id="baumols-cost-disease">Baumol’s Cost Disease</h3>
-<p>Time series analysis examining how productivity improvements in traded sectors drive compensation increases in non-traded sectors, with applications to public services.</p>
-<div class="tags">
-<p><span class="tag">Labor Economics</span> <span class="tag">Time Series</span></p>
-</div>
-</section>
-<section id="an-evaluation-of-a-transit-tax" class="level3 project-card">
-<h3 class="anchored" data-anchor-id="an-evaluation-of-a-transit-tax"><a href="https://benedictleonardi.shinyapps.io/METRO_tax_analysis/">An Evaluation of a Transit Tax</a></h3>
-<p>Interactive tool examining the distributional consequences of Cincinnati Metro’s potential shift from an employer income tax to a sales tax for transit funding.</p>
-<div class="tags">
-<p><span class="tag">Public Finance</span> <span class="tag">Transit</span> <span class="tag">R · Shiny</span></p>
-</div>
-</section>
-<section id="text-similarity-modeling" class="level3 project-card">
-<h3 class="anchored" data-anchor-id="text-similarity-modeling">Text Similarity Modeling</h3>
-<p>HathiTrust-based digital humanities research using NLP for historical text analysis and automated report generation. <a href="https://github.com/bleonardi/text_similarity_and_modeling">GitHub</a></p>
-<div class="tags">
-<p><span class="tag">NLP</span> <span class="tag">Digital Humanities</span> <span class="tag">Python</span></p>
 </div>
 </section>
 <hr>

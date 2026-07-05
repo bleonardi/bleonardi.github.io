@@ -3,13 +3,22 @@ title: "Projects"
 toc: false
 ---
 
-Standalone tools, demos, and exploratory analyses outside of formal research papers.
+Standalone tools, exploratory analyses, coursework, and side projects.
 
 ---
 
 ::: {.project-card}
+### [Braess's Paradox in Sport](https://bleonardi.github.io/Braess_Paradox_Sports/)
+Does a numerical disadvantage in hockey or soccer ever produce *more* efficient scoring output? Nine NHL seasons reject the hypothesis with high confidence; soccer remains underpowered and directionally inconclusive across four competition strata.
+
+::: {.tags}
+[Sports Analytics]{.tag} [Network Theory]{.tag} [R]{.tag}
+:::
+:::
+
+::: {.project-card}
 ### [Census Exploration: Tri-State Spatial Analysis](https://bleonardi.github.io/Census_Exploration/)
-A collection of exploratory spatial analyses and visualizations using ACS 5-year estimates for Ohio, Kentucky, and Indiana. Demonstrates choropleth mapping, interactive Leaflet maps, and demographic profiling via tidycensus.
+Exploratory spatial analyses and visualizations using ACS 5-year estimates for Ohio, Kentucky, and Indiana. Choropleth mapping, interactive Leaflet maps, and demographic profiling via tidycensus.
 
 ::: {.tags}
 [Census]{.tag} [Geospatial]{.tag} [R · Leaflet]{.tag}
@@ -17,11 +26,47 @@ A collection of exploratory spatial analyses and visualizations using ACS 5-year
 :::
 
 ::: {.project-card}
-### [Newport Crash Analysis](https://bleonardi.github.io/Newport_Crashes/)
-Poisson regression study evaluating the effect of crosswalk removal on crash frequency at a Newport, KY intersection. Uses scraped KYTC incident data and spatial filtering to isolate the intersection-level treatment effect.
+### [Population Projection Using a Variety of Approaches](https://oki-data.shinyapps.io/dynamic_projections/)
+Neighborhood-level population forecasting for the OKI region using dynamic linear models, gradient boosted models, and Hamilton-Perry methodology. Interactive Shiny application.
 
 ::: {.tags}
-[Transportation Safety]{.tag} [Causal Inference]{.tag} [R · Python]{.tag}
+[Demography]{.tag} [Forecasting]{.tag} [R · Shiny]{.tag}
+:::
+:::
+
+::: {.project-card}
+### Population Projection Using Satellite Imagery
+Spatial models and machine learning on Landsat imagery for population estimation. Remote sensing methods course project.
+
+::: {.tags}
+[Remote Sensing]{.tag} [Machine Learning]{.tag} [R]{.tag}
+:::
+:::
+
+::: {.project-card}
+### Baumol's Cost Disease
+Time series analysis examining how productivity improvements in traded sectors drive compensation increases in non-traded sectors, with applications to public services.
+
+::: {.tags}
+[Labor Economics]{.tag} [Time Series]{.tag}
+:::
+:::
+
+::: {.project-card}
+### [An Evaluation of a Transit Tax](https://benedictleonardi.shinyapps.io/METRO_tax_analysis/)
+Interactive tool examining the distributional consequences of Cincinnati Metro's potential shift from an employer income tax to a sales tax for transit funding.
+
+::: {.tags}
+[Public Finance]{.tag} [Transit]{.tag} [R · Shiny]{.tag}
+:::
+:::
+
+::: {.project-card}
+### Text Similarity Modeling
+HathiTrust-based digital humanities research using NLP for historical text analysis and automated report generation. [GitHub](https://github.com/bleonardi/text_similarity_and_modeling)
+
+::: {.tags}
+[NLP]{.tag} [Digital Humanities]{.tag} [Python]{.tag}
 :::
 :::
 

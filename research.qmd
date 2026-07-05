@@ -99,8 +99,6 @@ The "rupture narrative" holds that the Second Vatican Council (1962–65) marked
 
 The analysis spans six traditions (Catholic, LDS, Anglican, SBC, Orthodox, and USCCB) and a corpus of nearly 2,000 documents. Across most measures, the Catholic encyclical series shows *less* discontinuity at 1965 than peer Christian traditions show at their own watershed moments. USCCB pastoral letters — which post-date the Council and thus cannot serve as a pre/post control — track Roman encyclicals closely in complexity and style, suggesting downstream coherence rather than rupture.
 
-The project is methodologically careful about identification: regression discontinuity is rejected as a primary approach because popes demonstrably time documents strategically, violating the no-manipulation assumption (Paul VI held *Humanae Vitae* through the Council itself). ITS with robust standard errors is the preferred estimator.
-
 ::: {.tags}
 [Text Analysis]{.tag} [ITS · DiD]{.tag} [Catholic Studies]{.tag} [NLP]{.tag} [Python]{.tag}
 :::
@@ -113,22 +111,8 @@ The project is methodologically careful about identification: regression discont
 
 Street suffixes — Road, Court, Boulevard, Lane — once carried typological meaning. This analysis tests empirically whether that meaning persists, using OpenStreetMap geometry across four states (Ohio, Kentucky, Rhode Island, Connecticut) cross-referenced with Census building-era data. The core finding: by the 1980s, most suffixes are statistically indistinguishable on intersection density and segment length. A divergence score benchmarks each suffix against its pre-modern archetype. Road remains the most honest suffix; Boulevard has drifted the farthest from its original form.
 
-A [spatial mimesis extension](https://bleonardi.github.io/Street_Type_Divergence/spatial.html) asks whether cul-de-sac adoption spread by neighborhood copying. Year-by-year OLS across 207,000 block groups finds mimetic spillover β rising from 0.60 in 1940 to a peak of 0.90 in the early 1980s — the height of the planning monoculture — then falling to 0.67 by 2010 as New Urbanism eroded the dominant design vocabulary.
-
 ::: {.tags}
 [Urban Morphology]{.tag} [OSM]{.tag} [Spatial Econometrics]{.tag} [Geospatial Analysis]{.tag} [Python]{.tag}
-:::
-:::
-
-::: {.project-card}
-### [Braess's Paradox in Sport](https://bleonardi.github.io/Braess_Paradox_Sports/)
-
-**Do teams score more efficiently with fewer players?**
-
-Braess's paradox predicts that removing options from a network can improve collective outcomes — because individually rational choices under a richer option set converge on a worse equilibrium than a constrained set would. Applied to team sports: does a numerical disadvantage (hockey power play, soccer red card) ever produce higher scoring efficiency per opportunity? Nine NHL seasons (932K shots) reject the hypothesis with high confidence — man-up teams convert ~13% better per shot-quality unit than man-down teams. Soccer (254 red cards across four competition strata) remains underpowered and directionally incoherent across strata.
-
-::: {.tags}
-[Sports Analytics]{.tag} [Network Theory]{.tag} [Causal Inference]{.tag} [R]{.tag}
 :::
 :::
 
@@ -145,6 +129,18 @@ Cincinnati and Northern Kentucky share a metro economy but are split by the Ohio
 :::
 
 ::: {.project-card}
+### [Newport Crash Analysis](https://bleonardi.github.io/Newport_Crashes/)
+
+**Crosswalk removal and crash frequency at a Newport, KY intersection**
+
+After nearly getting struck at an intersection in historic Newport, KY, this analysis investigates what happened when the city removed a crosswalk following an accident that destroyed a signal pole. A Poisson regression models monthly crash counts as a function of time, citywide crash activity, and a post-removal indicator — isolating the intersection-level treatment effect from scraped KYTC incident data.
+
+::: {.tags}
+[Transportation Safety]{.tag} [Causal Inference]{.tag} [R · Python]{.tag}
+:::
+:::
+
+::: {.project-card}
 ### [Federal Reserve Research Alignment](https://bleonardi.github.io/Fed_Research_Districts/)
 
 **Do Fed Banks Study What Their Districts Produce?**
@@ -153,55 +149,6 @@ Topic-models ~18,300 Federal Reserve working papers (2010–2024) using keyATM w
 
 ::: {.tags}
 [Topic Modeling]{.tag} [Federal Reserve]{.tag} [NLP]{.tag} [R]{.tag}
-:::
-:::
-
----
-
-## Coursework & Seminar Work
-
-::: {.project-card}
-### [Population Projection Using a Variety of Approaches](https://oki-data.shinyapps.io/dynamic_projections/)
-Neighborhood-level population forecasting for the OKI region using dynamic linear models, gradient boosted models, and Hamilton-Perry methodology. Interactive Shiny application.
-
-::: {.tags}
-[Demography]{.tag} [Forecasting]{.tag} [R · Shiny]{.tag}
-:::
-:::
-
-::: {.project-card}
-### Population Projection Using Satellite Imagery
-Spatial models and machine learning on Landsat imagery for population estimation. Remote sensing methods course project.
-
-::: {.tags}
-[Remote Sensing]{.tag} [Machine Learning]{.tag} [R]{.tag}
-:::
-:::
-
-::: {.project-card}
-### Baumol's Cost Disease
-Time series analysis examining how productivity improvements in traded sectors drive compensation increases in non-traded sectors, with applications to public services.
-
-::: {.tags}
-[Labor Economics]{.tag} [Time Series]{.tag}
-:::
-:::
-
-::: {.project-card}
-### [An Evaluation of a Transit Tax](https://benedictleonardi.shinyapps.io/METRO_tax_analysis/)
-Interactive tool examining the distributional consequences of Cincinnati Metro's potential shift from an employer income tax to a sales tax for transit funding.
-
-::: {.tags}
-[Public Finance]{.tag} [Transit]{.tag} [R · Shiny]{.tag}
-:::
-:::
-
-::: {.project-card}
-### Text Similarity Modeling
-HathiTrust-based digital humanities research using NLP for historical text analysis and automated report generation. [GitHub](https://github.com/bleonardi/text_similarity_and_modeling)
-
-::: {.tags}
-[NLP]{.tag} [Digital Humanities]{.tag} [Python]{.tag}
 :::
 :::
 
