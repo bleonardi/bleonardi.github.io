@@ -1,0 +1,11 @@
+My research is fairly disparate in content but attempts to utilize the techniques favored by quantitative social science, especially economics, to answer questions that the technocractic approach tends to elide (or... just disregard as worth answering in the first place).
+
+For example, much of my work tends to center on the friction between supposedly rationalistic, 'science-driven' institutions and structures shape how/what we see, measure. For instance, some work touches on:
+
+**Spatial and institutional mismatch** is the most developed strand. Official city population figures, metropolitan governance structures, and federal spending formulas all inherit 20th-century boundary logics that diverge sharply from where urban density actually sits today. [The Sprawl Paradox](#the-sprawl-paradox) introduces a corrected density measure; [Transit Fragmentation](#transit-fragmentation) and [Transportation ROI](#transportation-roi-oki-region) trace the fiscal and mobility costs; [Federal Reserve alignment](#federal-reserve-research-alignment) asks whether research institutions reproduce the same blind spots.
+
+**Institutional persistence** connects the spatial work to a broader question about why organizations hold inherited structures even when those structures misallocate resources. The [Catholic parishes](#canonical-rigidity-us-catholic-parishes) analysis applies this lens to canonical boundary law; the [papal continuity](#continuity-and-rupture-in-papal-teaching) project extends it to the documentary record of magisterial teaching — testing whether Vatican II represents the radical rupture its critics and champions both claim.
+
+**Language as evidence** runs through several projects. If institutions encode their commitments in text, then shifts in vocabulary, readability, and rhetorical structure are not merely stylistic — they are data. The [street names](#whats-in-a-street-name) project reads urban morphology through suffix drift; the papal project uses ITS and diff-in-diff on a 150-year corpus. The earlier HathiTrust NLP work is the methodological precursor to both.
+
+The essays and philosophical pieces collected below make the normative commitments more explicit — they are the part of the work I cannot, and do not want to, hide behind the standard errors.

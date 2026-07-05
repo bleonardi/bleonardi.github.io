@@ -121,6 +121,30 @@ A [spatial mimesis extension](https://bleonardi.github.io/Street_Type_Divergence
 :::
 
 ::: {.project-card}
+### [Braess's Paradox in Sport](https://bleonardi.github.io/Braess_Paradox_Sports/)
+
+**Do teams score more efficiently with fewer players?**
+
+Braess's paradox predicts that removing options from a network can improve collective outcomes — because individually rational choices under a richer option set converge on a worse equilibrium than a constrained set would. Applied to team sports: does a numerical disadvantage (hockey power play, soccer red card) ever produce higher scoring efficiency per opportunity? Nine NHL seasons (932K shots) reject the hypothesis with high confidence — man-up teams convert ~13% better per shot-quality unit than man-down teams. Soccer (254 red cards across four competition strata) remains underpowered and directionally incoherent across strata.
+
+::: {.tags}
+[Sports Analytics]{.tag} [Network Theory]{.tag} [Causal Inference]{.tag} [R]{.tag}
+:::
+:::
+
+::: {.project-card}
+### [Road Design Fragmentation: NKy vs. Cincinnati](https://bleonardi.github.io/Road_Fragmentation_NKy/)
+
+**Does municipal fragmentation produce worse pedestrian environments?**
+
+Cincinnati and Northern Kentucky share a metro economy but are split by the Ohio River and a sharp governance boundary: Cincinnati operates under a single engineering department with a Complete Streets ordinance; NKy's urban core is governed by dozens of independent municipalities. This analysis builds a Pedestrian Hostility Index from ODOT, KYTC, and OSM road inventory data, tests whether jurisdictional fragmentation predicts worse scores, and maps the governance boundary's imprint on street design.
+
+::: {.tags}
+[Urban Design]{.tag} [Pedestrian Safety]{.tag} [Geospatial]{.tag} [R]{.tag}
+:::
+:::
+
+::: {.project-card}
 ### [Federal Reserve Research Alignment](https://bleonardi.github.io/Fed_Research_Districts/)
 
 **Do Fed Banks Study What Their Districts Produce?**
@@ -184,6 +208,30 @@ HathiTrust-based digital humanities research using NLP for historical text analy
 ---
 
 ## Essays & Philosophical Work
+
+::: {.project-card}
+### [The Just Rate](https://bleonardi.github.io/Just_Interest_Analysis/)
+
+**Usury, the *tituli extrinseci*, and a quantification of licit interest from the Digest to the credit card statement**
+
+Classical Catholic moral theology prohibits usury — charging for the use of money lent in a *mutuum* — while permitting interest under a precise set of extrinsic titles (*lucrum cessans*, *damnum emergens*, *periculum sortis*). This analysis formalizes those titles into a quantitative model and asks what interest rate they would have justified at various historical moments and what they justify today, benchmarking against actual consumer credit rates.
+
+::: {.tags}
+[Political Economy]{.tag} [Catholic Social Thought]{.tag} [R]{.tag}
+:::
+:::
+
+::: {.project-card}
+### [The Social Mortgage](https://bleonardi.github.io/Social_Mortgage_Analysis/)
+
+**John Paul II said property owes a debt to the common good. Does the math bear it out — or run the other way?**
+
+*Sollicitudo Rei Socialis* (1987) coins the "social mortgage": private property carries a lien payable to the common good. This paper asks which way the money actually moves for the two largest financed assets a typical American household owns — a house and a car. Pricing the subsidy flows (mortgage interest deduction, highway infrastructure, parking minimums, zoning externalities) and the negative externalities (carbon, congestion, neighborhood displacement), the analysis finds the debt runs the other way: for the median suburban household, society is net subsidizing the asset, not the reverse.
+
+::: {.tags}
+[Political Economy]{.tag} [Catholic Social Thought]{.tag} [Public Finance]{.tag} [R]{.tag}
+:::
+:::
 
 ::: {.project-card}
 ### Three Roads Diverged in a City
