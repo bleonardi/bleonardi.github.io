@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -134,7 +134,17 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#ai-llm-engineering" id="toc-ai-llm-engineering" class="nav-link active" data-scroll-target="#ai-llm-engineering">AI &amp; LLM Engineering</a></li>
+  <li><a href="#sports-quantitative-side-projects" id="toc-sports-quantitative-side-projects" class="nav-link" data-scroll-target="#sports-quantitative-side-projects">Sports &amp; Quantitative Side Projects</a></li>
+  <li><a href="#coursework-exploratory" id="toc-coursework-exploratory" class="nav-link" data-scroll-target="#coursework-exploratory">Coursework &amp; Exploratory</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -159,15 +169,35 @@ ul.task-list li input[type="checkbox"] {
 
 <p>Standalone tools, exploratory analyses, coursework, and side projects.</p>
 <hr>
-<section id="braesss-paradox-in-sport" class="level3 project-card">
-<h3 class="anchored" data-anchor-id="braesss-paradox-in-sport"><a href="https://bleonardi.github.io/Braess_Paradox_Sports/">Braess’s Paradox in Sport</a></h3>
-<p>Does a numerical disadvantage in hockey or soccer ever produce <em>more</em> efficient scoring output? Nine NHL seasons reject the hypothesis with high confidence; soccer remains underpowered and directionally inconclusive across four competition strata.</p>
+<section id="ai-llm-engineering" class="level2">
+<h2 class="anchored" data-anchor-id="ai-llm-engineering">AI &amp; LLM Engineering</h2>
+<section id="olmocr-document-extraction-space" class="level3 project-card">
+<h3 class="anchored" data-anchor-id="olmocr-document-extraction-space"><a href="https://huggingface.co/spaces/leonarb/olmocr-demo">olmOCR Document Extraction Space</a></h3>
+<p><strong>Vision-language PDF-to-markdown pipeline, deployed as a public HuggingFace Space</strong></p>
+<p><a href="https://huggingface.co/allenai/olmOCR-7B-0225-preview">olmOCR</a> is Allen Institute for AI’s 7B vision-language model fine-tuned for high-fidelity document extraction — preserving tables, equations, and multi-column layouts that trip up conventional OCR pipelines. The model takes a rendered PDF page image and outputs structured markdown, handling scanned documents, academic papers, and government forms without a preprocessing pipeline.</p>
+<p>This Space wraps the model in a Gradio interface so non-technical users can upload a PDF and get back clean markdown in one click. Under the hood: the PDF is rendered page-by-page via <code>pdf2image</code>, each page is passed to the olmOCR inference endpoint as a base64-encoded image, and the outputs are concatenated into a single downloadable <code>.md</code> file. The Space runs on a ZeroGPU allocation (A100, shared) so cold-start latency is the main UX constraint — typical throughput is ~4 seconds per page once warm.</p>
+<p><strong>Stack:</strong> Python · Gradio · HuggingFace Spaces · ZeroGPU · pdf2image · Pillow</p>
 <div class="tags">
-<p><span class="tag">Sports Analytics</span> <span class="tag">Network Theory</span> <span class="tag">R</span></p>
+<p><span class="tag">LLM Deployment</span> <span class="tag">Document AI</span> <span class="tag">Vision-Language</span> <span class="tag">Python</span> <span class="tag">HuggingFace</span></p>
 </div>
 </section>
-<section id="census-exploration-tri-state-spatial-analysis" class="level3 project-card">
-<h3 class="anchored" data-anchor-id="census-exploration-tri-state-spatial-analysis"><a href="https://bleonardi.github.io/Census_Exploration/">Census Exploration: Tri-State Spatial Analysis</a></h3>
+<hr>
+</section>
+<section id="sports-quantitative-side-projects" class="level2">
+<h2 class="anchored" data-anchor-id="sports-quantitative-side-projects">Sports &amp; Quantitative Side Projects</h2>
+<section id="braesss-paradox-in-sport-github" class="level3 project-card">
+<h3 class="anchored" data-anchor-id="braesss-paradox-in-sport-github"><a href="https://bleonardi.github.io/Braess_Paradox_Sports/">Braess’s Paradox in Sport</a> · <a href="https://github.com/bleonardi/Braess_Paradox_Sports">GitHub</a></h3>
+<p>Does a numerical disadvantage in hockey or soccer ever produce <em>more</em> efficient scoring output? Nine NHL seasons (932K shots) reject the hypothesis with high confidence — man-up teams convert ~13% better per shot-quality unit. Soccer remains underpowered across four competition strata.</p>
+<div class="tags">
+<p><span class="tag">Sports Analytics</span> <span class="tag">Network Theory</span> <span class="tag">Causal Inference</span> <span class="tag">R</span></p>
+</div>
+</section>
+<hr>
+</section>
+<section id="coursework-exploratory" class="level2">
+<h2 class="anchored" data-anchor-id="coursework-exploratory">Coursework &amp; Exploratory</h2>
+<section id="census-exploration-tri-state-spatial-analysis-github" class="level3 project-card">
+<h3 class="anchored" data-anchor-id="census-exploration-tri-state-spatial-analysis-github"><a href="https://bleonardi.github.io/Census_Exploration/">Census Exploration: Tri-State Spatial Analysis</a> · <a href="https://github.com/bleonardi/Census_Exploration">GitHub</a></h3>
 <p>Exploratory spatial analyses and visualizations using ACS 5-year estimates for Ohio, Kentucky, and Indiana. Choropleth mapping, interactive Leaflet maps, and demographic profiling via tidycensus.</p>
 <div class="tags">
 <p><span class="tag">Census</span> <span class="tag">Geospatial</span> <span class="tag">R · Leaflet</span></p>
@@ -201,18 +231,11 @@ ul.task-list li input[type="checkbox"] {
 <p><span class="tag">Public Finance</span> <span class="tag">Transit</span> <span class="tag">R · Shiny</span></p>
 </div>
 </section>
-<section id="text-similarity-modeling" class="level3 project-card">
-<h3 class="anchored" data-anchor-id="text-similarity-modeling">Text Similarity Modeling</h3>
-<p>HathiTrust-based digital humanities research using NLP for historical text analysis and automated report generation. <a href="https://github.com/bleonardi/text_similarity_and_modeling">GitHub</a></p>
+<section id="text-similarity-modeling-github" class="level3 project-card">
+<h3 class="anchored" data-anchor-id="text-similarity-modeling-github">Text Similarity Modeling · <a href="https://github.com/bleonardi/text_similarity_and_modeling">GitHub</a></h3>
+<p>HathiTrust-based digital humanities research using NLP for historical text analysis and automated report generation.</p>
 <div class="tags">
 <p><span class="tag">NLP</span> <span class="tag">Digital Humanities</span> <span class="tag">Python</span></p>
-</div>
-</section>
-<section id="olmocr-huggingface-space" class="level3 project-card">
-<h3 class="anchored" data-anchor-id="olmocr-huggingface-space"><a href="https://huggingface.co/spaces/leonarb/olmocr-demo">olmOCR HuggingFace Space</a></h3>
-<p>A Gradio interface for the Allen Institute’s olmOCR PDF-to-text conversion model, deployed as a public HuggingFace Space.</p>
-<div class="tags">
-<p><span class="tag">NLP</span> <span class="tag">Python</span> <span class="tag">HuggingFace</span></p>
 </div>
 </section>
 <section id="how-flocks-occur-in-nature-2021" class="level3 project-card">
@@ -224,6 +247,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

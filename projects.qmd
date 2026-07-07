@@ -1,23 +1,50 @@
 ---
 title: "Projects"
-toc: false
+toc: true
+toc-depth: 2
 ---
 
 Standalone tools, exploratory analyses, coursework, and side projects.
 
 ---
 
+## AI & LLM Engineering
+
 ::: {.project-card}
-### [Braess's Paradox in Sport](https://bleonardi.github.io/Braess_Paradox_Sports/)
-Does a numerical disadvantage in hockey or soccer ever produce *more* efficient scoring output? Nine NHL seasons reject the hypothesis with high confidence; soccer remains underpowered and directionally inconclusive across four competition strata.
+### [olmOCR Document Extraction Space](https://huggingface.co/spaces/leonarb/olmocr-demo)
+
+**Vision-language PDF-to-markdown pipeline, deployed as a public HuggingFace Space**
+
+[olmOCR](https://huggingface.co/allenai/olmOCR-7B-0225-preview) is Allen Institute for AI's 7B vision-language model fine-tuned for high-fidelity document extraction — preserving tables, equations, and multi-column layouts that trip up conventional OCR pipelines. The model takes a rendered PDF page image and outputs structured markdown, handling scanned documents, academic papers, and government forms without a preprocessing pipeline.
+
+This Space wraps the model in a Gradio interface so non-technical users can upload a PDF and get back clean markdown in one click. Under the hood: the PDF is rendered page-by-page via `pdf2image`, each page is passed to the olmOCR inference endpoint as a base64-encoded image, and the outputs are concatenated into a single downloadable `.md` file. The Space runs on a ZeroGPU allocation (A100, shared) so cold-start latency is the main UX constraint — typical throughput is ~4 seconds per page once warm.
+
+**Stack:** Python · Gradio · HuggingFace Spaces · ZeroGPU · pdf2image · Pillow
 
 ::: {.tags}
-[Sports Analytics]{.tag} [Network Theory]{.tag} [R]{.tag}
+[LLM Deployment]{.tag} [Document AI]{.tag} [Vision-Language]{.tag} [Python]{.tag} [HuggingFace]{.tag}
 :::
 :::
 
+---
+
+## Sports & Quantitative Side Projects
+
 ::: {.project-card}
-### [Census Exploration: Tri-State Spatial Analysis](https://bleonardi.github.io/Census_Exploration/)
+### [Braess's Paradox in Sport](https://bleonardi.github.io/Braess_Paradox_Sports/) · [GitHub](https://github.com/bleonardi/Braess_Paradox_Sports)
+Does a numerical disadvantage in hockey or soccer ever produce *more* efficient scoring output? Nine NHL seasons (932K shots) reject the hypothesis with high confidence — man-up teams convert ~13% better per shot-quality unit. Soccer remains underpowered across four competition strata.
+
+::: {.tags}
+[Sports Analytics]{.tag} [Network Theory]{.tag} [Causal Inference]{.tag} [R]{.tag}
+:::
+:::
+
+---
+
+## Coursework & Exploratory
+
+::: {.project-card}
+### [Census Exploration: Tri-State Spatial Analysis](https://bleonardi.github.io/Census_Exploration/) · [GitHub](https://github.com/bleonardi/Census_Exploration)
 Exploratory spatial analyses and visualizations using ACS 5-year estimates for Ohio, Kentucky, and Indiana. Choropleth mapping, interactive Leaflet maps, and demographic profiling via tidycensus.
 
 ::: {.tags}
@@ -62,20 +89,11 @@ Interactive tool examining the distributional consequences of Cincinnati Metro's
 :::
 
 ::: {.project-card}
-### Text Similarity Modeling
-HathiTrust-based digital humanities research using NLP for historical text analysis and automated report generation. [GitHub](https://github.com/bleonardi/text_similarity_and_modeling)
+### Text Similarity Modeling · [GitHub](https://github.com/bleonardi/text_similarity_and_modeling)
+HathiTrust-based digital humanities research using NLP for historical text analysis and automated report generation.
 
 ::: {.tags}
 [NLP]{.tag} [Digital Humanities]{.tag} [Python]{.tag}
-:::
-:::
-
-::: {.project-card}
-### [olmOCR HuggingFace Space](https://huggingface.co/spaces/leonarb/olmocr-demo)
-A Gradio interface for the Allen Institute's olmOCR PDF-to-text conversion model, deployed as a public HuggingFace Space.
-
-::: {.tags}
-[NLP]{.tag} [Python]{.tag} [HuggingFace]{.tag}
 :::
 :::
 

@@ -40,7 +40,7 @@ René Girard's theory of mimetic contagion holds that collective violence spread
 US city population rankings are distorted by arbitrary political consolidations — Indianapolis, Columbus, and Louisville absorbed their suburbs wholesale; Boston and San Francisco could not. The result rewards administrative reach over actual density. This project introduces the **True Urban Core (TUC)**: contiguous population in Census tracts exceeding 10,000 persons per square mile, the threshold associated with transit viability and walkable commercial corridors. When applied consistently, cities like Phoenix and Indianapolis drop sharply while Boston, SF, and DC emerge as the nation's true urban heavyweights. A companion analysis extends the framework to the OKI region's fiscal geography, showing that urban tracts generate roughly 17× more property tax revenue per acre than sprawl tracts while receiving less federal transportation investment per acre.
 
 ::: {.tags}
-[Urban Economics]{.tag} [Geospatial Analysis]{.tag} [Census]{.tag} [R]{.tag}
+[Urban Economics]{.tag} [Geospatial Analysis]{.tag} [Census]{.tag} [R]{.tag} [Spatial Econometrics]{.tag} [Causal Inference]{.tag}
 :::
 :::
 
@@ -52,7 +52,7 @@ US city population rankings are distorted by arbitrary political consolidations 
 In many US metro areas, transit service is divided among multiple independent authorities following legacy municipal boundaries rather than modern commuting patterns. This project introduces the **Transit Fragmentation Index (TFI)** — the inverse of a ridership-weighted HHI across agencies within each urbanized area — to quantify this institutional friction. Using 2023 National Transit Database data across 480+ urbanized areas, the analysis finds that fragmented regions suffer a persistent ridership penalty relative to consolidated systems of comparable size, even controlling for density, income, and built environment. In regions like Northern Kentucky and suburban Detroit, fragmentation accounts for a 55–79% loss in transit market share compared to demographically matched neighborhoods served by unified agencies.
 
 ::: {.tags}
-[Urban Economics]{.tag} [Transportation]{.tag} [Institutional Analysis]{.tag} [R · Python]{.tag}
+[Urban Economics]{.tag} [Transportation]{.tag} [Institutional Analysis]{.tag} [R · Python]{.tag} [Panel Data]{.tag} [HHI · Index Construction]{.tag}
 :::
 :::
 
@@ -148,7 +148,7 @@ After nearly getting struck at an intersection in historic Newport, KY, this ana
 Topic-models ~18,300 Federal Reserve working papers (2010–2024) using keyATM with 10 seeded topics, then correlates each Bank's research portfolio against district industry composition from BLS QCEW data. Midwest Feds show the strongest alignment; Boston, Philadelphia, and San Francisco are most misaligned, with research portfolios diverging substantially from local economic specialization. The Dallas Fed's near-zero energy research score — despite oil and gas dominating district employment — appears to reflect that San Francisco captures climate and grid research under the same topic label.
 
 ::: {.tags}
-[Topic Modeling]{.tag} [Federal Reserve]{.tag} [NLP]{.tag} [R]{.tag}
+[Topic Modeling]{.tag} [Federal Reserve]{.tag} [NLP]{.tag} [R]{.tag} [keyATM]{.tag} [Corpus Analysis]{.tag}
 :::
 :::
 
