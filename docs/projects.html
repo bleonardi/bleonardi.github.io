@@ -190,8 +190,8 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="oki-region-clustering-analysis-dashboard"><a href="https://benedictleonardi.shinyapps.io/clustering_analysis_dashboard/">OKI Region Clustering Analysis Dashboard</a></h3>
 <p><strong>Interactive TAZ-level cluster explorer with AI-generated cluster descriptions</strong></p>
 <p>This Shiny dashboard lets users explore unsupervised clustering of the OKI region’s Traffic Analysis Zones (TAZs) across three axes — population density, population growth, or both — with configurable cluster counts (7–12) and a year slider spanning 1990–2020. For each combination, a <code>mapview</code> choropleth maps the spatial distribution of clusters alongside histogram and trajectory plots by cluster.</p>
-<p>The dashboard integrates an optional LLM-powered summary layer via <code>ellmer</code>: when enabled, cluster centroids are passed to a Claude prompt that returns a short verbal description of each cluster’s character (e.g., “Urban, high density, centered on CBDs”), rendered inline in the UI. The AI descriptions are generated on demand and cached per configuration.</p>
-<p><strong>Stack:</strong> R · Shiny · sf · mapview · ggplot2 · ellmer (Claude API)</p>
+<p>The dashboard integrates an optional LLM-powered summary layer via <code>ellmer</code>: when enabled, cluster centroids are passed to a Gemini prompt that returns a short verbal description of each cluster’s character (e.g., “Urban, high density, centered on CBDs”), rendered inline in the UI. The AI descriptions are generated on demand and cached per configuration.</p>
+<p><strong>Stack:</strong> R · Shiny · sf · mapview · ggplot2 · ellmer (Google Gemini)</p>
 <div class="tags">
 <p><span class="tag">Clustering</span> <span class="tag">Geospatial</span> <span class="tag">LLM Integration</span> <span class="tag">R · Shiny</span> <span class="tag">OKI Region</span></p>
 </div>

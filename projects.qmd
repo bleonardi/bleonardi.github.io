@@ -37,9 +37,9 @@ This Space wraps the model in a Gradio interface so non-technical users can uplo
 
 This Shiny dashboard lets users explore unsupervised clustering of the OKI region's Traffic Analysis Zones (TAZs) across three axes — population density, population growth, or both — with configurable cluster counts (7–12) and a year slider spanning 1990–2020. For each combination, a `mapview` choropleth maps the spatial distribution of clusters alongside histogram and trajectory plots by cluster.
 
-The dashboard integrates an optional LLM-powered summary layer via `ellmer`: when enabled, cluster centroids are passed to a Claude prompt that returns a short verbal description of each cluster's character (e.g., "Urban, high density, centered on CBDs"), rendered inline in the UI. The AI descriptions are generated on demand and cached per configuration.
+The dashboard integrates an optional LLM-powered summary layer via `ellmer`: when enabled, cluster centroids are passed to a Gemini prompt that returns a short verbal description of each cluster's character (e.g., "Urban, high density, centered on CBDs"), rendered inline in the UI. The AI descriptions are generated on demand and cached per configuration.
 
-**Stack:** R · Shiny · sf · mapview · ggplot2 · ellmer (Claude API)
+**Stack:** R · Shiny · sf · mapview · ggplot2 · ellmer (Google Gemini)
 
 ::: {.tags}
 [Clustering]{.tag} [Geospatial]{.tag} [LLM Integration]{.tag} [R · Shiny]{.tag} [OKI Region]{.tag}
