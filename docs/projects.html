@@ -140,6 +140,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul class="collapse">
   <li><a href="#ai-llm-engineering" id="toc-ai-llm-engineering" class="nav-link active" data-scroll-target="#ai-llm-engineering">AI &amp; LLM Engineering</a></li>
+  <li><a href="#interactive-tools" id="toc-interactive-tools" class="nav-link" data-scroll-target="#interactive-tools">Interactive Tools</a></li>
   <li><a href="#sports-quantitative-side-projects" id="toc-sports-quantitative-side-projects" class="nav-link" data-scroll-target="#sports-quantitative-side-projects">Sports &amp; Quantitative Side Projects</a></li>
   <li><a href="#coursework-exploratory" id="toc-coursework-exploratory" class="nav-link" data-scroll-target="#coursework-exploratory">Coursework &amp; Exploratory</a></li>
   </ul>
@@ -183,6 +184,29 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <hr>
 </section>
+<section id="interactive-tools" class="level2">
+<h2 class="anchored" data-anchor-id="interactive-tools">Interactive Tools</h2>
+<section id="oki-region-clustering-analysis-dashboard" class="level3 project-card">
+<h3 class="anchored" data-anchor-id="oki-region-clustering-analysis-dashboard"><a href="https://benedictleonardi.shinyapps.io/clustering_analysis_dashboard/">OKI Region Clustering Analysis Dashboard</a></h3>
+<p><strong>Interactive TAZ-level cluster explorer with AI-generated cluster descriptions</strong></p>
+<p>This Shiny dashboard lets users explore unsupervised clustering of the OKI region’s Traffic Analysis Zones (TAZs) across three axes — population density, population growth, or both — with configurable cluster counts (7–12) and a year slider spanning 1990–2020. For each combination, a <code>mapview</code> choropleth maps the spatial distribution of clusters alongside histogram and trajectory plots by cluster.</p>
+<p>The dashboard integrates an optional LLM-powered summary layer via <code>ellmer</code>: when enabled, cluster centroids are passed to a Claude prompt that returns a short verbal description of each cluster’s character (e.g., “Urban, high density, centered on CBDs”), rendered inline in the UI. The AI descriptions are generated on demand and cached per configuration.</p>
+<p><strong>Stack:</strong> R · Shiny · sf · mapview · ggplot2 · ellmer (Claude API)</p>
+<div class="tags">
+<p><span class="tag">Clustering</span> <span class="tag">Geospatial</span> <span class="tag">LLM Integration</span> <span class="tag">R · Shiny</span> <span class="tag">OKI Region</span></p>
+</div>
+</section>
+<section id="dynamic-tazcounty-population-projections" class="level3 project-card">
+<h3 class="anchored" data-anchor-id="dynamic-tazcounty-population-projections"><a href="https://oki-data.shinyapps.io/dynamic_projections/">Dynamic TAZ/County Population Projections</a></h3>
+<p><strong>Multi-method population forecasting dashboard for the OKI region</strong></p>
+<p>A Shiny-powered Quarto document that produces and compares tract- and TAZ-level population projections for the OKI metro region through 2040. Three methods are implemented side-by-side: <strong>dynamic linear models</strong> (DLM, treating each zone’s trajectory as a state-space time series), <strong>XGBoost</strong> (trained on lagged demographic, land-use, and accessibility features), and <strong>Hamilton-Perry</strong> (a cohort-component extrapolation common in regional planning practice). Interactive Leaflet and Plotly panels let users toggle method, geography level, and forecast horizon.</p>
+<p><strong>Stack:</strong> R · Shiny · Quarto · leaflet · plotly · ggiraph · sf</p>
+<div class="tags">
+<p><span class="tag">Demography</span> <span class="tag">Forecasting</span> <span class="tag">Time Series</span> <span class="tag">Machine Learning</span> <span class="tag">R · Shiny</span></p>
+</div>
+</section>
+<hr>
+</section>
 <section id="sports-quantitative-side-projects" class="level2">
 <h2 class="anchored" data-anchor-id="sports-quantitative-side-projects">Sports &amp; Quantitative Side Projects</h2>
 <section id="braesss-paradox-in-sport-github" class="level3 project-card">
@@ -201,13 +225,6 @@ ul.task-list li input[type="checkbox"] {
 <p>Exploratory spatial analyses and visualizations using ACS 5-year estimates for Ohio, Kentucky, and Indiana. Choropleth mapping, interactive Leaflet maps, and demographic profiling via tidycensus.</p>
 <div class="tags">
 <p><span class="tag">Census</span> <span class="tag">Geospatial</span> <span class="tag">R · Leaflet</span></p>
-</div>
-</section>
-<section id="population-projection-using-a-variety-of-approaches" class="level3 project-card">
-<h3 class="anchored" data-anchor-id="population-projection-using-a-variety-of-approaches"><a href="https://oki-data.shinyapps.io/dynamic_projections/">Population Projection Using a Variety of Approaches</a></h3>
-<p>Neighborhood-level population forecasting for the OKI region using dynamic linear models, gradient boosted models, and Hamilton-Perry methodology. Interactive Shiny application.</p>
-<div class="tags">
-<p><span class="tag">Demography</span> <span class="tag">Forecasting</span> <span class="tag">R · Shiny</span></p>
 </div>
 </section>
 <section id="population-projection-using-satellite-imagery" class="level3 project-card">
