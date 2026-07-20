@@ -10,9 +10,11 @@ For example, much of my work tends to center on the friction between supposedly 
 
 **Spatial and institutional mismatch** is the most developed strand. Official city population figures, metropolitan governance structures, and federal spending formulas all inherit 20th-century boundary logics that diverge sharply from where urban density actually sits today. [The Sprawl Paradox](#the-sprawl-paradox) introduces a corrected density measure; [Transit Fragmentation](#transit-fragmentation) and [Transportation ROI](#transportation-roi-oki-region) trace the fiscal and mobility costs; [Federal Reserve alignment](#federal-reserve-research-alignment) asks whether research institutions reproduce the same blind spots.
 
-**Institutional persistence** connects the spatial work to a broader question about why organizations hold inherited structures even when those structures misallocate resources. The [Catholic parishes](#canonical-rigidity-us-catholic-parishes) analysis applies this lens to canonical boundary law; the [papal continuity](#continuity-and-rupture-in-papal-teaching) project extends it to the documentary record of magisterial teaching — testing whether Vatican II represents the radical rupture its critics and champions both claim.
+**Institutional persistence** connects the spatial work to a broader question about why organizations hold inherited structures even when those structures misallocate resources. The [Catholic parishes](#canonical-rigidity-us-catholic-parishes) analysis applies this lens to canonical boundary law, and a companion piece asks the inverse question — rather than where institutions misallocate, what predicts which ones get formally *recognized*: a hazard model of the 95 US churches elevated to minor basilica status since 1907, applied to rank today's parishes on their own prospects. The [papal continuity](#continuity-and-rupture-in-papal-teaching) project extends the broader lens to the documentary record of magisterial teaching — testing whether Vatican II represents the radical rupture its critics and champions both claim.
 
 **Language as evidence** runs through several projects. If institutions encode their commitments in text, then shifts in vocabulary, readability, and rhetorical structure are not merely stylistic — they are data. The [street names](#whats-in-a-street-name) project reads urban morphology through suffix drift; the papal project uses ITS and diff-in-diff on a 150-year corpus. The earlier HathiTrust NLP work is the methodological precursor to both.
+
+*Read by subject rather than by method: the [Catholic parishes/basilica](#canonical-rigidity-us-catholic-parishes) work, the [papal continuity](#continuity-and-rupture-in-papal-teaching) project, and the [Catholic social thought essays](#the-just-rate) below form a standalone thread in Catholic institutional studies, distinct from the urban-economics throughline above.*
 
 The essays and philosophical pieces collected below make the normative commitments more explicit — they are the part of the work I cannot, and do not want to, hide behind the standard errors.
 
@@ -85,8 +87,10 @@ An event study tracking residential home price responses to major Brent Spence B
 
 A spatial econometric study of how 19th-century parish boundary structures misallocate sacramental services across modern urban demographics. Uses Voronoi tessellations to construct "natural market area" counterfactuals against canonical parish boundaries, quantifying spatial leakage where parishioners bypass assigned parishes for closer alternatives. A companion analysis estimates the opportunity cost of underutilized surface parking in high-density cores using Overture Maps building footprints.
 
+A third companion piece, **Basilica-ble**, turns the lens around: rather than measuring misallocation, it asks what predicts formal institutional recognition. A discrete-time hazard model trained on the 95 US churches elevated to minor basilica status since 1907 finds that designation tracks population scale and Catholic institutional depth — not growth rate — and applies that pattern to rank ~17,700 non-basilica churches on their own prospects, searchable by diocese.
+
 ::: {.tags}
-[Spatial Econometrics]{.tag} [Urban Land Use]{.tag} [R · Python]{.tag}
+[Spatial Econometrics]{.tag} [Urban Land Use]{.tag} [Catholic Studies]{.tag} [R · Python]{.tag}
 :::
 :::
 
