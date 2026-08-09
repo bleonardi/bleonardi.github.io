@@ -33,7 +33,7 @@ css: assets/home.css
 
 I am currently a Data Scientist at 84.51 in Cincinnati, OH. I am on leave from my doctoral program in Economics at the University of Cincinnati after the birth of my son!
 
-My interests lie at the confluence of economics, history and philosophy of science, and especially spatial issues; I am interested in the ways that how social scientists think about the world and study it comes to shape it, physically or otherwise. 
+My interests lie at the confluence of economics, history and philosophy of science, and especially spatial issues; I am interested in how social scientists' reflection on the world and study of it comes to shape the world, physically or otherwise. 
 
 My professional career spans economic research, technical roles, K-12 education (as a Teaching Fellow in the Alliance for Catholic Education). I have worked in math education and education research; tax policy, transit finance, natural language processing, and geospatial analysis, to name a few.
 
