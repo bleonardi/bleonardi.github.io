@@ -145,6 +145,20 @@ After nearly getting struck at an intersection in historic Newport, KY, this ana
 :::
 
 ::: {.project-card}
+### [Elite Sector Convergence](https://bleonardi.github.io/Elite_Convergence_Analysis/)
+
+**Have America's corporate, legal, academic, media, and finance elites become one political class?**
+
+A recurring claim in commentary on American institutions (most recently from Yuval Levin) holds that the country's historically distinct elites — corporate, legal/judiciary, academic, media, finance — have converged into a single, culturally alike class. This project tests that claim against donor-level data from Adam Bonica's DIME database (44M+ individual campaign donors, 1980–2024), bucketing donors into the five sectors by self-reported occupation and tracking each sector's political positioning (CFscore), donor geography, employer diversity, and gender composition over time.
+
+The results complicate the convergence narrative rather than confirming it. Political ideology **diverged**, not converged: the spread between sector mean CFscores rose from ~0.25–0.34 in the 1980s–90s to a peak near 0.52 by 2004, driven by Academic, Legal, and Media donors drifting sharply left while Corporate and Finance stayed comparatively stable until 2016. Employer concentration also **fell** across every sector — elite donor pools draw from a wider, not narrower, set of institutions than they used to. The one dimension that does show real convergence is geography: even as each sector's donor base disperses, the overlap between sectors' top-10 metro areas rose from a Jaccard similarity of 0.26 (pre-2000) to 0.60 (2010–2024) — elites increasingly cluster in the same handful of cities, even as they diverge politically.
+
+::: {.tags}
+[Political Economy]{.tag} [Elite Theory]{.tag} [Campaign Finance]{.tag} [R]{.tag} [DIME/Bonica Data]{.tag}
+:::
+:::
+
+::: {.project-card}
 ### [Federal Reserve Research Alignment](https://bleonardi.github.io/Fed_Research_Districts/)
 
 **Do Fed Banks Study What Their Districts Produce?**
