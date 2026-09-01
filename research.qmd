@@ -71,6 +71,18 @@ This analysis is now integrated into the [Sprawl Paradox](https://bleonardi.gith
 :::
 
 ::: {.project-card}
+### [Floodwalls, Metro Capture, and the River Towns](https://bleonardi.github.io/Bypassed_Towns_Analysis/)
+
+**How a question about urban renewal became a question about concrete**
+
+Did Army Corps floodwalls and metro capture of urban renewal funds explain different outcomes amongst towns (esp. along the Ohio River)? Inspired by a trip to Madison, IN's lovely preserved urban character (as a contrast to, say, larger river towns near metro Cincinnati). Not a lot of generalizability found in this.
+
+::: {.tags}
+[Urban Economics]{.tag} [Event Study]{.tag} [Causal Inference]{.tag} [R]{.tag}
+:::
+:::
+
+::: {.project-card}
 ### [Brent Spence Bridge: Home Price Event Study](https://bleonardi.github.io/BSB_Impact_Analysis/)
 
 An event study tracking residential home price responses to major Brent Spence Bridge corridor milestones — federal grant announcement, contractor award, groundbreaking. Identifies a significant "landing zone" effect: ZIP codes within 1 mile of the I-75/BSB corridor outperformed the broader Cincinnati–Northern Kentucky market by roughly **8.5 percentage points** since the 2020 fire.
@@ -155,6 +167,18 @@ The results complicate the convergence narrative rather than confirming it. Poli
 
 ::: {.tags}
 [Political Economy]{.tag} [Elite Theory]{.tag} [Campaign Finance]{.tag} [R]{.tag} [DIME/Bonica Data]{.tag}
+:::
+:::
+
+::: {.project-card}
+### [1965 Immigration Shock vs. the Welfare Narrative](https://github.com/bleonardi/1965_Immigration_Black_Labor_Shock)
+
+**Testing Roy Beck's claim against a shift-share immigration instrument and state AFDC variation**
+
+Recent (2026) emphases on the role of immigration in suppression of working class wages checked against the 1965 Immigration Act... especially as a different explanation than the predominant "Welfare explanation" of declines in specifically Black labor force participation.
+
+::: {.tags}
+[Labor Economics]{.tag} [Causal Inference]{.tag} [Shift-Share IV]{.tag} [R]{.tag}
 :::
 :::
 
