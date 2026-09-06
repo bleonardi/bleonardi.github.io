@@ -60,6 +60,24 @@ A Shiny-powered Quarto document that produces and compares tract- and TAZ-level 
 :::
 :::
 
+::: {.project-card}
+### [CFB Roster Retention Analysis](https://benedictleonardi.shinyapps.io/cfb-roster-retention/)
+
+<!-- TODO: write your own one-liner + description here. Draft facts to work from if useful:
+     - Interactive Shiny dashboard ranking all 138 FBS football programs by year-over-year roster
+       retention (2025→2026), transfer-portal outflow, and CFBD's returning-production metric.
+     - Second tab cross-references football revenue (EADA) and endowment (IPEDS) against a
+       metro-industry misalignment score from a separate project (Fed_Research_Districts) to test
+       whether "big-money, locally-misaligned" programs see more roster churn — exploratory
+       correlations did not support that. -->
+
+**Stack:** R · Shiny · DT · ggiraph · CollegeFootballData API · EADA · IPEDS
+
+::: {.tags}
+[Sports Analytics]{.tag} [College Football]{.tag} [R · Shiny]{.tag} [Data Journalism]{.tag}
+:::
+:::
+
 ---
 
 ## Sports & Quantitative Side Projects
@@ -105,7 +123,7 @@ Time series analysis examining how productivity improvements in traded sectors d
 :::
 
 ::: {.project-card}
-### [An Evaluation of a Transit Tax](https://benedictleonardi.shinyapps.io/METRO_tax_analysis/)
+### [An Evaluation of a Transit Tax](https://benedictleonardi.shinyapps.io/Issue7_tax_analysis/)
 Interactive tool examining the distributional consequences of Cincinnati Metro's potential shift from an employer income tax to a sales tax for transit funding.
 
 ::: {.tags}
